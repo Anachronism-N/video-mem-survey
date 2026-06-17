@@ -1,0 +1,22 @@
+\section{Implicit Token Memory: KV Cache, Sink, and Sparse Retrieval}
+
+Implicit token memory is the dominant mechanism in streaming video generation. It stores history as attention keys and values, sink tokens, compressed memory tokens, or sparse historical blocks. Unlike explicit entity memory, token memory usually does not know whether a token corresponds to a character identity, a background object, or a transient motion cue.
+
+\input{tables/lifecycle_table}
+
+\subsection{Hierarchical KV Memory}
+Echo-Forcing separates memory into stable anchors, compressed history, and recent windows, then adds scene recall frames and difference-aware memory decay \citep{echoforcing2026}. This is a strong example of a memory lifecycle design: it writes historical scene evidence, stores it in a hierarchy, retrieves recall frames when needed, and forgets outdated memory when new context conflicts with old scenes.
+
+\subsection{Memory Tokens and Online RoPE}
+MemRoPE introduces evolving long-term and short-term memory tokens, but its deeper contribution is the observation that compressed memory cannot be cleanly formed from already-rotated RoPE keys. By caching unrotated keys and applying RoPE online, it couples memory compression with positional correction \citep{memrope2026}.
+
+\subsection{Sink Tokens and Participative Compression}
+Attention sinks can preserve early context, but video generation is sensitive to over-stabilization. Deep Forcing argues that naive sinks may cause fidelity degradation and motion stagnation; its deep sink and participative compression preserve active historical tokens while avoiding excessive static anchoring \citep{deepforcing2025}.
+
+\subsection{Head-Aware Cache Policies}
+Pyramid-Forcing profiles attention heads and assigns different cache policies to anchor, wave, and veil heads \citep{pyramidforcing2026}. This suggests that memory should not be uniform across heads: some heads may be better suited for long-term identity or layout, while others carry short-term motion.
+
+\subsection{Sparse and Future-Aware Retrieval}
+LVSA uses sparse attention and rotating global anchors to reduce cost and avoid fixed-grid bias \citep{lvsa2026}. Future Forcing keeps tokens that are likely to be useful for future queries, while OmniMem retrieves full-range historical KV blocks sparsely \citep{futureforcing2026,omnimem2026}. These methods show a shift from passive history retention to retrieval-aware memory selection.
+
+\input{tables/representative_methods_table}
