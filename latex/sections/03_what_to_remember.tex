@@ -1,0 +1,20 @@
+\section{What Should Video Models Remember?}
+
+A useful memory taxonomy should begin with the object of memory. We identify eight major memory objects in video generation and video world models.
+
+\input{tables/taxonomy_table}
+
+\subsection{Identity Memory}
+Identity memory refers to the stable representation of recurring subjects, including faces, clothing, body shape, accessories, and role identity. Failures include identity drift, character swapping, duplication, and loss of high-frequency identity details. Representative methods include StoryDiffusion, Video Storyboarding, ConsisID, TPIGE, IAMFlow, SlotMemory, EM-Vid, and Memento \citep{storydiffusion2024,videostoryboarding2024,consisid2024,tpige2025,iamflow2026,slotmemory2026,emvid2026,memento2026}.
+
+\subsection{Scene and Layout Memory}
+Scene memory stores background appearance, object layout, and previously visited scenes. Echo-Forcing makes this explicit through hierarchical temporal memory and scene recall frames \citep{echoforcing2026}. Context-as-Memory and world-model memory systems further connect scene recall with camera-aware retrieval and spatial consistency \citep{contextmemory2025,worldmem2025}.
+
+\subsection{Motion and Event Memory}
+Motion memory preserves local dynamics, velocity, and event progression. It is distinct from identity or scene memory: a model may preserve the same face while freezing motion. Deep Forcing, LVSA, FreeSpec, and FLEX highlight the tension between long-context stability and dynamic richness \citep{deepforcing2025,lvsa2026,freespec2026,flex2026}.
+
+\subsection{Positional Memory}
+Positional memory concerns the temporal coordinates used to interpret historical tokens. RoPE phase conflicts can make a model retrieve the right content with the wrong temporal meaning. MemRoPE, Pyramid-Forcing, FLEX, and Infinity-RoPE represent different attempts to repair this coordinate system \citep{memrope2026,pyramidforcing2026,flex2026,infinityrope2025}.
+
+\subsection{Entity, Spatial, and World-State Memory}
+Entity memory shifts the unit of memory from frame time to persistent objects. Spatial and world-state memory further require the model to preserve 3D layout, pose-conditioned scene revisits, and hidden states that evolve while out of view \citep{iamflow2026,slotmemory2026,worldmem2025,spmem2025,liveworld2026,remind2026}.
