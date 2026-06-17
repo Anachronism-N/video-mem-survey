@@ -15,6 +15,7 @@
 - `12_prewriting_lock_v0.5.5.md`: 正式写作前锁版文档，固定主题、范围、taxonomy、lifecycle、章节结构和写作顺序。
 - `13_table_figure_revision_v0.5.8.md`: 针对 v0.5.7 的图表和形式化说明修正，明确 Figure 4 完整化、表格保留原则和 Section 5--7 的机制表/形式化要求。
 - `14_training_regime_and_section8_10_v0.5.9.md`: 新增训练/免训练横向维度，并扩展 Section 8--10 的 retrieval/world-state/evaluation 表格和写作策略。
+- `15_v060_self_improvement_and_research_agenda.md`: v0.6.0 自我审稿与继续生成说明，新增 open problems、research agenda、scope limitations 和 conclusion。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
