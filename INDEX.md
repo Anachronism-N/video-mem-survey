@@ -10,5 +10,11 @@
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
+- `notes/paper_notes/READING_NOTES_BUNDLE.md`: 结构化阅读笔记合集，本地 ZIP 已包含完整版本。
+- `latex/main.tex`: AAAI-style survey draft entry point.
+- `latex/sections/`: 初步填充的论文章节。
+- `latex/tables/`: taxonomy/lifecycle/representative methods LaTeX tables。
+- `latex/figures/FIGURE_REQUESTS.md`: 需要绘制或补充的图示清单。
+- `latex/references.bib`: 初版 BibTeX，占位作者信息需后续按 PDF/arXiv metadata 复核。
 - `tables/papers_master.csv`: 结构化论文主表。
 - `tables/stats.json`: 当前版本统计。
