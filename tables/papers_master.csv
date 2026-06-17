@@ -1,0 +1,101 @@
+cat,paper,year,id,memory_object,substrate,tf,priority,role,url,status
+S0,Survey of Video Diffusion Models,2025,,survey,survey,N/A,Background,existing survey,,To verify
+S0,Video Diffusion Models: A Survey,2025,,survey,survey,N/A,Background,existing survey,,To verify
+S0,Spatiotemporal Consistency in Video Generation Survey,2025,,consistency,survey,N/A,Related,compare with memory taxonomy,,To verify
+S0,Controllable Video Generation Survey,2025,,control/reference,survey,N/A,Related,control background,,To verify
+S0,Long-Video Storytelling Generation Survey,2025,,narrative,survey,N/A,Related,narrative background,,To verify
+S0,Video Generation Models as World Models,2025,,world-model,survey,N/A,Related,world model background,,To verify
+S0,Simulating the Visual World with Artificial Intelligence,2025,,world-model,survey,N/A,Related,world model background,,To verify
+S0,Video Generation Models in Robotics,2026,,robotics/world-model,survey,N/A,Background,embodied background,,To verify
+S0,Efficient World Models Survey,2025,,efficiency/world-model,survey,N/A,Background,efficiency background,,To verify
+S0,Long Video Generation Survey,2024,,long-video,survey,N/A,Related,long video background,,To verify
+S1,Diffusion Forcing,2024,2407.01392,temporal,AR diffusion,Trained,Background,forcing family origin,,From prior docs
+S1,CausVid,2024/2025,2412.07772,temporal,block-causal KV,Trained,High,causal baseline,,From prior docs
+S1,Self Forcing,2025,2506.08009,temporal,KV rollout,Trained,Must-read,streaming backbone,https://arxiv.org/abs/2506.08009,Verified by web
+S1,Self-Forcing++,2025/2026,2510.02283,temporal,rolling KV,Trained,High,streaming baseline,,From prior docs
+S1,Rolling Forcing,2025/2026,2509.25161,temporal/motion,rolling window + sink,Trained,Must-read,main AR baseline,https://arxiv.org/abs/2509.25161,Verified by web
+S1,Causal-Forcing,2026,2602.02214,temporal,block-causal AR,Trained,High,causal baseline,,From prior docs
+S1,LongLive,2025/2026,2509.22622,temporal,frame sink + rolling KV,Trained,Must-read,long streaming baseline,https://arxiv.org/abs/2509.22622,Verified by web
+S1,LongLive-2.0,2026,2605.18739,system,video infrastructure,Trained,Related,system background,https://arxiv.org/abs/2605.18739,Verified by web
+S1,FramePack,2025,2504.12626,context,compressed frame context,Mixed,High,context compression,https://arxiv.org/abs/2504.12626,Verified by web
+S1,StreamDiT,2024/2025,,temporal,streaming DiT,Mixed,Related,streaming background,,To verify
+S1,StreamingT2V,2024/2025,,temporal,streaming generation,Mixed,Related,streaming background,,To verify
+S1,SkyReels-V2,2025,,long video,system,Mixed,Related,application baseline,,To verify
+S1,MAGI-1,2025,,long video,chunk AR,Mixed,Related,chunk AR baseline,,To verify
+S1,Pyramid Flow,2024/2025,,long video,flow/pyramid,Mixed,Background,flow baseline,,To verify
+S1,LongVie / LongVie 2,2025/2026,2512.13604,history context,history-context guidance,Trained,High,ultra-long controllable video,https://arxiv.org/abs/2512.13604,Verified by web
+S1,Infinity-RoPE,2025/2026,2511.20649,positional,RoPE/KV flush,Trained,High,infinite rollout,https://arxiv.org/abs/2511.20649,Verified by web
+S1,SANA-Video,2025/2026,,system memory,constant-memory KV,Mixed,Related,efficient long video,,To verify
+S2,Echo-Forcing,2026,2605.16003,scene/temporal,hierarchical KV,Yes,Must-read,scene memory framework,https://arxiv.org/abs/2605.16003,Verified by web
+S2,MemRoPE,2026,2603.12513,temporal/positional,memory tokens + unrotated KV,Yes,Must-read,memory compression and RoPE,https://arxiv.org/abs/2603.12513,Verified by web
+S2,Deep Forcing,2025,2512.05081,motion/temporal,deep sink + compressed KV,Yes,Must-read,deep sink baseline,https://arxiv.org/abs/2512.05081,Verified by web
+S2,Pyramid-Forcing,2026,2605.13111,head-role/temporal,head-aware KV,Yes,Must-read,head-aware cache,https://arxiv.org/abs/2605.13111,Verified by web
+S2,LVSA,2026,2605.31057,scene/motion,sparse attention + anchors,Yes,Must-read,sparse attention and loop metric,,From prior docs
+S2,Future Forcing,2026,2605.30083,future context,future-aware KV,Yes,High,future-aware cache,https://arxiv.org/abs/2605.30083,Verified by web
+S2,OmniMem,2026,2605.30519,full-range context,sparse KV retrieval,Yes,High,full-range KV retrieval,https://arxiv.org/abs/2605.30519,Verified by web
+S2,Quant VideoGen,2026,2602.02958,system memory,low-bit KV,Yes,Related,KV quantization,https://arxiv.org/abs/2602.02958,Verified by web
+S2,Pack and Force Your Memory / MemoryPack,2025,2510.01784,context,packed retrieval memory,Mixed,Related,packed memory,https://arxiv.org/html/2510.01784v1,Verified by web
+S2,MAG / Memorize-and-Generate,2025,2512.18741,scene/temporal,compressed memory,Trained,High,memory compression and generation,https://arxiv.org/html/2512.18741v1,Verified by web
+S2,SWIFT,2026,2605.09442,semantic prompt context,semantic injection cache,Yes,High,prompt-adaptive memory,https://arxiv.org/html/2605.09442v1,Verified by web
+S2,DecMem,2026,2605.31336,global/local context,sparse global + anchored local,Yes,High,global-local memory,https://arxiv.org/abs/2605.31336,Verified by web
+S2,StreamingLLM / Attention Sink,2024,,token continuity,sink tokens,Yes,Background,sink background,,To verify
+S2,H2O / SnapKV / Quest / PyramidKV,2023-2025,,system memory,KV pruning/compression,Yes,Background,LLM KV background,,To verify
+S2,Sparse VideoGen,2025,,attention role,sparse attention heads,Yes,Related,head analysis inspiration,,To verify
+S3,MemRoPE,2026,2603.12513,positional,online RoPE indexing,Yes,Must-read,position-memory coupling,https://arxiv.org/abs/2603.12513,Verified by web
+S3,Pyramid-Forcing,2026,2605.13111,positional,dynamic RoPE remap,Yes,Must-read,position remap,https://arxiv.org/abs/2605.13111,Verified by web
+S3,FLEX,2026,2602.14027,positional/frequency,frequency-aware RoPE,Yes,High,horizon extension,https://arxiv.org/abs/2602.14027,Verified by web
+S3,Infinity-RoPE,2025/2026,2511.20649,positional,Block-Relativistic RoPE,Trained,High,infinite rollout,https://arxiv.org/abs/2511.20649,Verified by web
+S3,FreeLOC,2026,2603.25209,positional,VRPR + TSA,Yes,Related,relative position remap,,From prior docs
+S3,LoL / RoPE jitter,2026,2601.16914,positional,per-head RoPE jitter,Yes,To-check,position perturbation,,From prior docs
+S4,FreeLong,2024/2025,,long-range semantics,feature fusion,Yes,Related,long video frequency background,,To verify
+S4,FreeLong++,2025,2507.00162,low/high frequency,multi-band spectral fusion,Yes,Must-read,spectral memory,https://arxiv.org/abs/2507.00162,Verified by web
+S4,FreeSpec,2026,2605.06509,dynamic/high-frequency,singular-spectrum reconstruction,Yes,High,spectrum correction,https://arxiv.org/abs/2605.06509,Verified by web
+S4,FLEX,2026,2602.14027,spectral positional,frequency-aware RoPE,Yes,High,frequency + position,https://arxiv.org/abs/2602.14027,Verified by web
+S4,ConsisID,2024/2025,2411.17440,identity frequency,frequency-decomposed ID feature,Mixed,Must-read,ID frequency view,https://arxiv.org/abs/2411.17440,Verified by web
+S5,StoryDiffusion,2024,2405.01434,character identity,consistent self-attention,Yes,High,early consistent attention,https://arxiv.org/abs/2405.01434,Verified by web
+S5,Video Storyboarding,2024,2412.07750,identity + motion,query injection,Yes,Must-read,identity-motion tradeoff,https://arxiv.org/abs/2412.07750,Verified by web
+S5,ConsisID,2024/2025,2411.17440,face identity,frequency-decomposed ID feature,Mixed,Must-read,ID baseline,https://arxiv.org/abs/2411.17440,Verified by web
+S5,TPIGE,2025,2509.01362,identity,prompt/image/guidance,Yes,High,training-free ID,https://arxiv.org/abs/2509.01362,Verified by web
+S5,Gloria,2026,2603.29931,character identity,character-centric anchors,Mixed,High,anchor identity memory,https://arxiv.org/abs/2603.29931,Verified by web
+S5,VideoMemory,2026,2601.03655,character/prop/background,dynamic memory bank,Mixed,High,narrative memory,https://arxiv.org/abs/2601.03655,Verified by web
+S5,IAMFlow,2026,2605.18733,entity identity/attributes,global ID table + VLM,Yes,Must-read,explicit entity memory,https://arxiv.org/abs/2605.18733,Verified by web
+S5,SlotMemory,2026,2605.31033,object/entity,object-centric KV slots,Yes,Must-read,object-centric KV memory,https://arxiv.org/abs/2605.31033,Verified by web
+S5,EM-Vid,2026,2605.23610,entity,sparse latent patch bank,Yes,Must-read,entity-indexed latent memory,https://arxiv.org/abs/2605.23610,Verified by web
+S5,Memento,2026,2606.14667,recurring subject,historical memory bank,Mixed,Must-read,subject reconstruction memory,https://arxiv.org/abs/2606.14667,Verified by web
+S5,StoryMem,2025,2512.19539,characters/scenes/styles,compact memory bank,Mixed,High,story video memory,https://arxiv.org/html/2512.19539v1,Verified by web
+S5,Corgi,2025,,multi-scene consistency,cached latent memory bank,Mixed,Related,cached memory guidance,,To verify
+S5,Lynx,2025,2509.15496,identity,ID adapter + reference adapter,Trained,Related,Wan identity baseline,,From prior docs
+S5,Echo-Memory / JoyAI-Echo,2026,,role identity/audiovisual,per-character memory slots,Trained,To-check,role memory baseline,,From prior docs
+S5,LaVieID / ConsistI2V / FantasyID,2024-2025,,identity,ID routing/reference attention,Mixed,Related,ID baseline family,,To verify
+S6,Context as Memory,2025,2506.03141,scene,context frames,Trained,Must-read,frame retrieval memory,https://arxiv.org/abs/2506.03141,Verified by web
+S6,MemCam,2026,,camera scene,compressed memory frames,Mixed,High,camera/co-visibility retrieval,,To verify
+S6,Memory-V2V,2026,2601.16296,visual editing memory,visual memory,Trained,High,multi-turn video editing,https://arxiv.org/abs/2601.16296,Verified by web
+S6,MALT Diffusion,2025/2026,,latent memory,memory-augmented latent transformer,Mixed,Related,latent memory,,To verify
+S6,MAG,2025,2512.18741,compressed history,compression model,Trained,High,external history compression,https://arxiv.org/html/2512.18741v1,Verified by web
+S6,LongLive-RAG,2026,,historical retrieval,retrieval memory,Mixed,To-check,LongLive retrieval,,From prior docs
+S6,MemFlow / A2RD / Memorize-When-Needed,2025/2026,,adaptive retrieval,adaptive memory,Mixed,To-check,adaptive retrieval memory,,From prior docs
+S7,Genie 2,2024,,world/scene,system-level memory,System,Background,world model background,https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/,Verified by web
+S7,Genie 3,2025,,interactive world,system-level memory,System,Background,world model background,https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/,Verified by web
+S7,WorldMem,2025,2504.12369,scene/spatial,memory frames + states,Trained,Must-read,world simulation memory,https://arxiv.org/abs/2504.12369,Verified by web
+S7,Video World Models with Long-term Spatial Memory / SpMem,2025,2506.05284,spatial/episodic,working + spatial + episodic,Trained,Must-read,long-term spatial memory,https://arxiv.org/abs/2506.05284,Verified by web
+S7,WorldPack,2025,2512.02473,spatial,trajectory packing + retrieval,Trained,High,compressed spatial memory,https://arxiv.org/abs/2512.02473,Verified by web
+S7,RELIC,2025,2512.04040,spatial/action,latent tokens + actions + poses,Trained,Must-read,realtime interactive world model,https://arxiv.org/abs/2512.04040,Verified by web
+S7,Long-Context State-Space Video World Models,2025,2505.20171,long-range spatial,SSM + local attention,Trained,High,SSM world memory,https://arxiv.org/abs/2505.20171,Verified by web
+S7,Learning World Models for Interactive Video Generation,2025,2505.21996,global state,VRAG + state conditioning,Trained,High,interactive world memory,https://arxiv.org/abs/2505.21996,Verified by web
+S7,LiveWorld,2026,2603.07145,dynamic world-state,persistent global state,Trained,Must-read,out-of-sight dynamics,https://arxiv.org/abs/2603.07145,Verified by web
+S7,ReMind,2026,2605.25333,out-of-sight state,dynamic memory/cache adaptation,Trained,High,dynamic hidden-state memory,https://arxiv.org/html/2605.25333v1,Verified by web
+S7,Mirage / Latent Spatial Memory,2026,2606.09828,latent spatial memory,latent 3D cache,Trained,Must-read,latent 3D memory,https://arxiv.org/abs/2606.09828,Verified by web
+S7,MosaicMem / Hybrid Spatial Memory,2026,2603.17117,spatial memory,3D patch lifting,Trained,High,hybrid spatial memory,https://arxiv.org/abs/2603.17117,Verified by web
+S7,Beyond Pixel Histories,2026,2603.03482,3D environment,persistent 3D memory,Trained,High,explicit 3D memory,https://arxiv.org/abs/2603.03482,Verified by web
+S7,Echo-Memory,2026,2606.09803,action world memory,benchmark/study,N/A,High,action world memory,https://arxiv.org/abs/2606.09803,Verified by web
+S7,WorldPlay,2025,2512.14614,interactive context,reconstituted context memory,Trained,Related,interactive world context,https://arxiv.org/abs/2512.14614,Verified by web
+S7,MoVerse,2026,2606.13376,navigation world,spatial memory + Gaussian conditioning,Trained,Related,navigable world memory,https://arxiv.org/abs/2606.13376,Verified by web
+S7,DriveWAM / Driving World Models,2024-2026,,driving scene state,world memory,Trained,Background,autonomous driving background,,To verify
+S7,VideoSSM / RAD-like routes,2025/2026,,recurrent temporal state,SSM/RNN memory,Trained,Related,recurrent/state-space memory,,To verify
+S7,MIND-related world model systems,2026,,action + memory,benchmark-driven memory,N/A,Related,memory consistency setting,,To verify
+S8,VBench / VBench-Long,2024/2025,,subject/dynamic consistency,benchmark,N/A,Must-use,video quality and consistency,,To verify
+S8,VQeval,2026,,loop/frozen penalty,benchmark,N/A,Must-read,anti-loop evaluation,,From prior docs
+S8,NarraStream-Bench,2026,,narrative identity,benchmark,N/A,High,narrative long video evaluation,,From prior docs
+S8,MIND,2026,2602.08025,memory/action control,benchmark,N/A,Must-read,world model memory benchmark,https://arxiv.org/abs/2602.08025,Verified by web
+S8,LiveBench / LoopNav / WorldScore,2025/2026,,world revisit,benchmark,N/A,High,world-model evaluation,,To verify
+S8,Human evaluation protocols,2026,,identity/scene/motion,manual eval,N/A,Must-use,manual diagnostic checks,,N/A
