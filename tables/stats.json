@@ -1,0 +1,17 @@
+{
+  "version": "v0.1",
+  "date": "2026-06-17",
+  "paper_count": 100,
+  "categories": {
+    "S0_existing_surveys": 10,
+    "S1_ar_streaming_backbones": 17,
+    "S2_kv_attention_memory": 15,
+    "S3_positional_rope_memory": 6,
+    "S4_frequency_spectrum_memory": 5,
+    "S5_identity_entity_narrative_memory": 15,
+    "S6_retrieval_external_memory": 7,
+    "S7_video_world_model_memory": 19,
+    "S8_evaluation_benchmarks": 6
+  },
+  "note": "Current version is bounded by 2026-06-17; re-run search after 2026-07-31 for a true July cutoff."
+}
