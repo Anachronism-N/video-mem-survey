@@ -1,0 +1,104 @@
+# WEB_READ_INDEX_v0.4
+
+- [A Mechanistic View on Video Generation as World Models: State and Dynamics](web_read_all_v0.4/s0_2601_17067_a_mechanistic_view_on_video_generation_as_world_models_state_and_dynam.md) — S0 Existing surveys / 相邻综述 / High background / metadata-web-ready
+- [A Survey on Long Video Generation](web_read_all_v0.4/s0_2403_16407_a_survey_on_long_video_generation.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [A Survey on Long-Video Storytelling Generation](web_read_all_v0.4/s0_2507_07202_a_survey_on_long_video_storytelling_generation.md) — S0 Existing surveys / 相邻综述 / High background / metadata-web-ready
+- [ASurvey: Spatiotemporal Consistency in Video Generation](web_read_all_v0.4/s0_2502_17863_asurvey_spatiotemporal_consistency_in_video_generation.md) — S0 Existing surveys / 相邻综述 / High background / metadata-web-ready
+- [Controllable Video Generation: A Survey](web_read_all_v0.4/s0_2507_16869_controllable_video_generation_a_survey.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [Survey of Video Diffusion Models](web_read_all_v0.4/s0_2504_16081_survey_of_video_diffusion_models.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [Video Diffusion Models: A Survey](web_read_all_v0.4/s0_2405_03150_video_diffusion_models_a_survey.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms](web_read_all_v0.4/s0_2603_28489_video_generation_models_as_world_models_efficient_paradigms_architectu.md) — S0 Existing surveys / 相邻综述 / High background / metadata-web-ready
+- [Video Generation Models in Robotics](web_read_all_v0.4/s0_2601_07823_video_generation_models_in_robotics.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [World Model for Robot Learning: A Comprehensive Survey](web_read_all_v0.4/s0_2605_00080_world_model_for_robot_learning_a_comprehensive_survey.md) — S0 Existing surveys / 相邻综述 / Background / metadata-web-ready
+- [Causal-Forcing](web_read_all_v0.4/s1_2602_02214_causal_forcing.md) — S1 AR / streaming video generation backbones / Core backbone / metadata-web-ready
+- [CausVid](web_read_all_v0.4/s1_2412_07772_causvid.md) — S1 AR / streaming video generation backbones / Core background / metadata-web-ready
+- [Diffusion Forcing](web_read_all_v0.4/s1_2407_01392_diffusion_forcing.md) — S1 AR / streaming video generation backbones / Core background / metadata-web-ready
+- [FramePack](web_read_all_v0.4/s1_2504_12626_framepack.md) — S1 AR / streaming video generation backbones / Core background / metadata-web-ready
+- [Infinity-RoPE](web_read_all_v0.4/s1_2511_20649_infinity_rope.md) — S1 AR / streaming video generation backbones / Core related / metadata-web-ready
+- [LongLive](web_read_all_v0.4/s1_2509_22622_longlive.md) — S1 AR / streaming video generation backbones / Core backbone / metadata-web-ready
+- [LongLive-2.0](web_read_all_v0.4/s1_2605_18739_longlive_2_0.md) — S1 AR / streaming video generation backbones / Related / metadata-web-ready
+- [MAGI-1](web_read_all_v0.4/s1_noid_magi_1.md) — S1 AR / streaming video generation backbones / Related / metadata-only
+- [Pyramid Flow](web_read_all_v0.4/s1_noid_pyramid_flow.md) — S1 AR / streaming video generation backbones / Background / metadata-only
+- [Rolling Forcing](web_read_all_v0.4/s1_2509_25161_rolling_forcing.md) — S1 AR / streaming video generation backbones / Core backbone / metadata-web-ready
+- [SANA-Video](web_read_all_v0.4/s1_2509_24695_sana_video.md) — S1 AR / streaming video generation backbones / Related / metadata-web-ready
+- [Self Forcing](web_read_all_v0.4/s1_2506_08009_self_forcing.md) — S1 AR / streaming video generation backbones / Core backbone / metadata-web-ready
+- [SkyReels-V2](web_read_all_v0.4/s1_noid_skyreels_v2.md) — S1 AR / streaming video generation backbones / Related / metadata-only
+- [StreamDiT](web_read_all_v0.4/s1_2507_03745_streamdit.md) — S1 AR / streaming video generation backbones / Related / metadata-web-ready
+- [StreamingT2V](web_read_all_v0.4/s1_noid_streamingt2v.md) — S1 AR / streaming video generation backbones / Related / metadata-only
+- [Video generation models as world simulators / Sora technical report page](web_read_all_v0.4/s1_noid_video_generation_models_as_world_simulators_sora_technical_report_page.md) — S1 AR / streaming video generation backbones / Background / metadata-web-ready
+- [Wan: Open and Advanced Large-Scale Video Generative Models](web_read_all_v0.4/s1_2503_20314_wan_open_and_advanced_large_scale_video_generative_models.md) — S1 AR / streaming video generation backbones / Core background / metadata-web-ready
+- [Attention Sink / StreamingLLM](web_read_all_v0.4/s2_2309_17453_attention_sink_streamingllm.md) — S2 KV cache / attention memory / Background / metadata-web-ready
+- [DecMem: Decoupled Global and Local Memory for Minute-long Video Generation](web_read_all_v0.4/s2_2605_31336_decmem_decoupled_global_and_local_memory_for_minute_long_video_generat.md) — S2 KV cache / attention memory / High / metadata-web-ready
+- [Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression](web_read_all_v0.4/s2_2512_05081_deep_forcing_training_free_long_video_generation_with_deep_sink_and_pa.md) — S2 KV cache / attention memory / Must-read / web-read
+- [Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation](web_read_all_v0.4/s2_2605_16003_echo_forcing_a_scene_memory_framework_for_interactive_long_video_gener.md) — S2 KV cache / attention memory / Must-read / web-read
+- [Future Forcing: Future-aware Training-free KV Cache Policy for Autoregressive Video Generation](web_read_all_v0.4/s2_2605_30083_future_forcing_future_aware_training_free_kv_cache_policy_for_autoregr.md) — S2 KV cache / attention memory / High / metadata-web-ready
+- [H2O / SnapKV / Quest / PyramidKV / SirLLM](web_read_all_v0.4/s2_noid_h2o_snapkv_quest_pyramidkv_sirllm.md) — S2 KV cache / attention memory / Background / metadata-only
+- [KV Cache Quantization for Self-Forcing Video Generation: A 33-Method Empirical Study](web_read_all_v0.4/s2_2603_27469_kv_cache_quantization_for_self_forcing_video_generation_a_33_method_em.md) — S2 KV cache / attention memory / High / web-read
+- [LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation](web_read_all_v0.4/s2_2606_02553_longlive_rag_a_general_retrieval_augmented_framework_for_long_video_ge.md) — S2 KV cache / attention memory / High / web-read
+- [LVSA: Training-Free Sparse Attention for Long Video Diffusion](web_read_all_v0.4/s2_2605_31057_lvsa_training_free_sparse_attention_for_long_video_diffusion.md) — S2 KV cache / attention memory / High / metadata-web-ready
+- [MAG: Memorize-and-Generate for Long Video Generation](web_read_all_v0.4/s2_2512_18741_mag_memorize_and_generate_for_long_video_generation.md) — S2 KV cache / attention memory / High / metadata-web-ready
+- [MemRoPE: Training-Free Infinite Video Generation via Evolving Memory Tokens](web_read_all_v0.4/s2_2603_12513_memrope_training_free_infinite_video_generation_via_evolving_memory_to.md) — S2 KV cache / attention memory / Must-read / web-read
+- [OmniMem: A General Retrieval-Augmented Framework for Long Video Generation / full-range KV retrieval](web_read_all_v0.4/s2_2605_30519_omnimem_a_general_retrieval_augmented_framework_for_long_video_generat.md) — S2 KV cache / attention memory / High / metadata-web-ready
+- [Pack and Force Your Memory / MemoryPack](web_read_all_v0.4/s2_2510_01784_pack_and_force_your_memory_memorypack.md) — S2 KV cache / attention memory / Related / metadata-web-ready
+- [Pyramid Forcing: Head-Aware Pyramid KV Cache Policy for High-Quality Long Video Generation](web_read_all_v0.4/s2_2605_13111_pyramid_forcing_head_aware_pyramid_kv_cache_policy_for_high_quality_lo.md) — S2 KV cache / attention memory / Must-read / web-read
+- [Sparse VideoGen (SVG)](web_read_all_v0.4/s2_noid_sparse_videogen_svg.md) — S2 KV cache / attention memory / Related / metadata-only
+- [SWIFT: Semantic Injection Cache and Adaptive Dynamic Window](web_read_all_v0.4/s2_2605_09442_swift_semantic_injection_cache_and_adaptive_dynamic_window.md) — S2 KV cache / attention memory / Related / metadata-web-ready
+- [FLEX / Train Short, Inference Long](web_read_all_v0.4/s3_2602_14027_flex_train_short_inference_long.md) — S3 Positional / RoPE memory / High / metadata-web-ready
+- [FreeLOC](web_read_all_v0.4/s3_2603_25209_freeloc.md) — S3 Positional / RoPE memory / Related / metadata-web-ready
+- [Infinity-RoPE](web_read_all_v0.4/s3_2511_20649_infinity_rope.md) — S3 Positional / RoPE memory / High / metadata-web-ready
+- [MemRoPE](web_read_all_v0.4/s3_2603_12513_memrope.md) — S3 Positional / RoPE memory / Must-read / web-read
+- [Pyramid Forcing](web_read_all_v0.4/s3_2605_13111_pyramid_forcing.md) — S3 Positional / RoPE memory / Must-read / web-read
+- [RIFLEx / UltraViCo / LoL: Longer-than-Longer](web_read_all_v0.4/s3_noid_riflex_ultravico_lol_longer_than_longer.md) — S3 Positional / RoPE memory / Related / metadata-only
+- [ConsisID: Identity-Preserving Text-to-Video Generation by Frequency Decomposition](web_read_all_v0.4/s4_2411_17440_consisid_identity_preserving_text_to_video_generation_by_frequency_dec.md) — S4 Frequency / spectrum memory / High / metadata-web-ready
+- [FLEX](web_read_all_v0.4/s4_2602_14027_flex.md) — S4 Frequency / spectrum memory / High / metadata-web-ready
+- [FreeLong / FreeLong++: Training-Free Long Video Generation via Multi-band SpectralFusion](web_read_all_v0.4/s4_2507_00162_freelong_freelong_training_free_long_video_generation_via_multi_band_s.md) — S4 Frequency / spectrum memory / High / metadata-web-ready
+- [FreeSpec: Training-Free Long Video Generation via Singular-Spectrum Reconstruction](web_read_all_v0.4/s4_2605_06509_freespec_training_free_long_video_generation_via_singular_spectrum_rec.md) — S4 Frequency / spectrum memory / High / metadata-web-ready
+- [Frequency Regulation for Video Generation](web_read_all_v0.4/s4_noid_frequency_regulation_for_video_generation.md) — S4 Frequency / spectrum memory / Related / metadata-only
+- [Closed-Loop Triplet Synergistic Generation for Long-Form Video / CoTriSyGen](web_read_all_v0.4/s5_2606_16184_closed_loop_triplet_synergistic_generation_for_long_form_video_cotrisy.md) — S5 Identity / entity / narrative memory / High / web-read
+- [ConsisID](web_read_all_v0.4/s5_2411_17440_consisid.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [Corgi: Cached Memory Guided Video Generation](web_read_all_v0.4/s5_noid_corgi_cached_memory_guided_video_generation.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [EM-Vid: Training-Free Entity-Centric Memory for Efficient and Consistent Multi-Shot Video Generation](web_read_all_v0.4/s5_2605_23610_em_vid_training_free_entity_centric_memory_for_efficient_and_consisten.md) — S5 Identity / entity / narrative memory / Must-read / web-read
+- [Gloria: Consistent Character Video Generation via Content Anchors](web_read_all_v0.4/s5_2603_29931_gloria_consistent_character_video_generation_via_content_anchors.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [IAMFlow: Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory](web_read_all_v0.4/s5_2605_18733_iamflow_advancing_narrative_long_video_generation_via_training_free_id.md) — S5 Identity / entity / narrative memory / Must-read / web-read
+- [LaVieID / ConsistI2V / Concat-ID / Identity-GRPO / FantasyID](web_read_all_v0.4/s5_noid_lavieid_consisti2v_concat_id_identity_grpo_fantasyid.md) — S5 Identity / entity / narrative memory / Related baseline / metadata-only
+- [Lynx](web_read_all_v0.4/s5_2509_15496_lynx.md) — S5 Identity / entity / narrative memory / Related baseline / metadata-web-ready
+- [Memento: Reconstruct to Remember for Consistent Long Video Generation](web_read_all_v0.4/s5_2606_14667_memento_reconstruct_to_remember_for_consistent_long_video_generation.md) — S5 Identity / entity / narrative memory / Must-read / web-read
+- [Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory](web_read_all_v0.4/s5_2601_16296_memory_v2v_augmenting_video_to_video_diffusion_models_with_memory.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation](web_read_all_v0.4/s5_2605_31033_slotmemory_object_centric_kv_memory_for_streaming_long_video_generatio.md) — S5 Identity / entity / narrative memory / Must-read / web-read
+- [StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation](web_read_all_v0.4/s5_2405_01434_storydiffusion_consistent_self_attention_for_long_range_image_and_vide.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [StoryMem: Long Story Video Generation with Compact Memory Bank](web_read_all_v0.4/s5_2512_19539_storymem_long_story_video_generation_with_compact_memory_bank.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [TPIGE: Identity-Preserving Text-to-Video Generation via Training-Free Prompt, Image, and Guidance Enhancement](web_read_all_v0.4/s5_2509_01362_tpige_identity_preserving_text_to_video_generation_via_training_free_p.md) — S5 Identity / entity / narrative memory / High / metadata-web-ready
+- [Video Storyboarding: Multi-Shot Character Consistency for Text-to-Video Generation](web_read_all_v0.4/s5_2412_07750_video_storyboarding_multi_shot_character_consistency_for_text_to_video.md) — S5 Identity / entity / narrative memory / Must-read / metadata-web-ready
+- [VideoMemory: Toward Consistent Video Generation via Memory Integration](web_read_all_v0.4/s5_2601_03655_videomemory_toward_consistent_video_generation_via_memory_integration.md) — S5 Identity / entity / narrative memory / Must-read / metadata-web-ready
+- [Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval](web_read_all_v0.4/s6_2506_03141_context_as_memory_scene_consistent_interactive_long_video_generation_w.md) — S6 Retrieval / external memory / High / metadata-web-ready
+- [LongLive-RAG](web_read_all_v0.4/s6_2606_02553_longlive_rag.md) — S6 Retrieval / external memory / High / web-read
+- [MAG](web_read_all_v0.4/s6_2512_18741_mag.md) — S6 Retrieval / external memory / High / metadata-web-ready
+- [MALT Diffusion](web_read_all_v0.4/s6_noid_malt_diffusion.md) — S6 Retrieval / external memory / Related / metadata-web-ready
+- [MemCam](web_read_all_v0.4/s6_2603_26193_memcam.md) — S6 Retrieval / external memory / Related / metadata-web-ready
+- [SlotMemory / EM-Vid / DecMem](web_read_all_v0.4/s6_2605_31033_slotmemory_em_vid_decmem.md) — S6 Retrieval / external memory / High / web-read
+- [SWIFT](web_read_all_v0.4/s6_2605_09442_swift.md) — S6 Retrieval / external memory / Related / metadata-web-ready
+- [Beyond Pixel Histories: World Models with Persistent 3D Memory](web_read_all_v0.4/s7_2603_03482_beyond_pixel_histories_world_models_with_persistent_3d_memory.md) — S7 Video world model memory / High / metadata-web-ready
+- [DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving](web_read_all_v0.4/s7_2605_28544_drivewam_video_generative_priors_enable_scalable_world_action_modeling.md) — S7 Video world model memory / Related / metadata-web-ready
+- [Echo-Memory: Action World Model Memory Benchmark / Study](web_read_all_v0.4/s7_2606_09803_echo_memory_action_world_model_memory_benchmark_study.md) — S7 Video world model memory / Related / metadata-web-ready
+- [GAIA-1 / DriveDreamer / MagicDrive / Vista / Copilot4D / DriveLM etc.](web_read_all_v0.4/s7_noid_gaia_1_drivedreamer_magicdrive_vista_copilot4d_drivelm_etc.md) — S7 Video world model memory / Background / metadata-only
+- [Genie 2: A Large-scale Foundation World Model](web_read_all_v0.4/s7_noid_genie_2_a_large_scale_foundation_world_model.md) — S7 Video world model memory / Background / metadata-web-ready
+- [Genie 3: A New Frontier for World Models](web_read_all_v0.4/s7_noid_genie_3_a_new_frontier_for_world_models.md) — S7 Video world model memory / Background / metadata-web-ready
+- [Hybrid Spatial Memory / MosaicMem](web_read_all_v0.4/s7_2603_17117_hybrid_spatial_memory_mosaicmem.md) — S7 Video world model memory / High / web-read
+- [Latent Spatial Memory for Video World Models / Mirage](web_read_all_v0.4/s7_2606_09828_latent_spatial_memory_for_video_world_models_mirage.md) — S7 Video world model memory / Must-read / web-read
+- [Learning World Models for Interactive Video Generation](web_read_all_v0.4/s7_2505_21996_learning_world_models_for_interactive_video_generation.md) — S7 Video world model memory / High / metadata-web-ready
+- [LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models](web_read_all_v0.4/s7_2603_07145_liveworld_simulating_out_of_sight_dynamics_in_generative_video_world_m.md) — S7 Video world model memory / Must-read / web-read
+- [Long-Context State-Space Video World Models](web_read_all_v0.4/s7_2505_20171_long_context_state_space_video_world_models.md) — S7 Video world model memory / High / metadata-web-ready
+- [MIND: Benchmarking Memory Consistency and Action Control in World Models](web_read_all_v0.4/s7_2602_08025_mind_benchmarking_memory_consistency_and_action_control_in_world_model.md) — S7 Video world model memory / Must-read / web-read
+- [MoVerse](web_read_all_v0.4/s7_2606_13376_moverse.md) — S7 Video world model memory / Related / metadata-web-ready
+- [RELIC: Real-time Long Context Interactive World Models](web_read_all_v0.4/s7_2512_04040_relic_real_time_long_context_interactive_world_models.md) — S7 Video world model memory / Must-read / web-read
+- [ReMind: Dynamic Memory for Out-of-Sight State Evolution](web_read_all_v0.4/s7_2605_25333_remind_dynamic_memory_for_out_of_sight_state_evolution.md) — S7 Video world model memory / High / web-read
+- [Video World Models with Long-term Spatial Memory / SpMem](web_read_all_v0.4/s7_2506_05284_video_world_models_with_long_term_spatial_memory_spmem.md) — S7 Video world model memory / Must-read / web-read
+- [WorldMem: Long-term Consistent World Simulation with Memory](web_read_all_v0.4/s7_2504_12369_worldmem_long_term_consistent_world_simulation_with_memory.md) — S7 Video world model memory / Must-read / web-read
+- [WorldPack: Compressed Memory Improves Spatial Consistency in Video World Modeling](web_read_all_v0.4/s7_2512_02473_worldpack_compressed_memory_improves_spatial_consistency_in_video_worl.md) — S7 Video world model memory / High / metadata-web-ready
+- [WorldPlay](web_read_all_v0.4/s7_2512_14614_worldplay.md) — S7 Video world model memory / High / metadata-web-ready
+- [LiveBench / LoopNav / MAG-Bench](web_read_all_v0.4/s8_noid_livebench_loopnav_mag_bench.md) — S8 Evaluation / benchmarks / Related / metadata-only
+- [MIND](web_read_all_v0.4/s8_2602_08025_mind.md) — S8 Evaluation / benchmarks / Must cite / web-read
+- [NarraStream-Bench](web_read_all_v0.4/s8_2605_18733_narrastream_bench.md) — S8 Evaluation / benchmarks / High / web-read
+- [VBench / VBench-Long](web_read_all_v0.4/s8_noid_vbench_vbench_long.md) — S8 Evaluation / benchmarks / Must cite / metadata-web-ready
+- [VQeval](web_read_all_v0.4/s8_2605_31057_vqeval.md) — S8 Evaluation / benchmarks / High / metadata-web-ready
+- [WorldScore](web_read_all_v0.4/s8_noid_worldscore.md) — S8 Evaluation / benchmarks / Related / metadata-only
