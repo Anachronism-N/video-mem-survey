@@ -1,0 +1,53 @@
+\documentclass[letterpaper]{article}
+% Replace aaai26 with the official AAAI style file from the target year's author kit.
+% The style file is intentionally not bundled; see README.md.
+\usepackage[submission]{aaai26}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{natbib}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\frenchspacing
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+
+\title{Memory Systems in Video Generation and Video World Models: From KV Cache to Entity and World-State Memory}
+
+\author{
+    Anonymous Authors\\
+    Anonymous Institution\\
+    anonymous@example.com
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Long-form video generation and video world modeling require models to preserve identities, scenes, motions, spatial layouts, and hidden world states over extended horizons. Existing surveys mainly organize the field around diffusion architectures, controllability, long-video generation, storytelling, or spatiotemporal consistency, leaving the memory mechanisms behind long-horizon generation comparatively underexplored. This survey presents a memory-centric view of video generation and video world models. We categorize existing methods by what they remember, where memory is stored, and how memory is written, retrieved, used, updated, forgotten, and evaluated. We review implicit token memory in KV caches and attention sinks, positional and spectral memory, identity and entity-centric memory, retrieval-augmented memory, and spatial/world-state memory in interactive video world models. Finally, we discuss evaluation protocols and open challenges, including active identity recall, entity-state memory, memory-aware forgetting, and metrics beyond superficial temporal consistency.
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_preliminaries}
+\input{sections/03_what_to_remember}
+\input{sections/04_token_memory}
+\input{sections/05_positional_spectral_memory}
+\input{sections/06_identity_entity_memory}
+\input{sections/07_world_model_memory}
+\input{sections/08_evaluation}
+\input{sections/09_future_directions}
+\input{sections/10_conclusion}
+
+\bibliographystyle{aaai26}
+\bibliography{references}
+\end{document}
