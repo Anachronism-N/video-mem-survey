@@ -1,0 +1,12 @@
+\section{Evaluation of Memory}
+
+Evaluating memory is difficult because generic consistency scores can be misleading. A frozen or looping video may receive high frame consistency while failing as a dynamic video. Therefore, memory evaluation should be diagnostic rather than single-score.
+
+\subsection{Evaluation Targets}
+We group evaluation into six targets: identity consistency, dynamic quality, scene revisit consistency, entity attribute consistency, spatial memory, and world-state/action consistency.
+
+\subsection{Metric Traps}
+Subject consistency alone is insufficient: it can reward static faces. Frame consistency alone may reward frozen backgrounds. Dynamic degree alone may ignore identity drift. LVSA's discussion of loop/frozen degeneration motivates evaluators such as VQeval, while IAMFlow-style narrative benchmarks and MIND-style closed-loop revisiting benchmarks evaluate memory under prompt transitions and action-conditioned interaction \citep{lvsa2026,iamflow2026,mind2026}.
+
+\subsection{Recommended Protocol}
+A robust memory benchmark should include: (i) single-subject long rollout, (ii) multi-shot same-character generation, (iii) multi-entity narrative prompts, (iv) long-gap scene or object revisit, and (v) closed-loop world-model navigation. Each protocol should report both automatic metrics and human diagnostic labels for drift, duplication, disappearance, loop, frozen motion, and wrong recall.
