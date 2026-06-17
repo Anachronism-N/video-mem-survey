@@ -1,0 +1,45 @@
+paper,tier,primary_section,primary_lifecycle_role,secondary_tags,notes
+Echo-Forcing,Mainline,Section 5 Writing and Retaining + Section 8 Updating and Forgetting,retain/forget,"scene memory; KV memory; recall frames",Primary discussion should emphasize hierarchical temporal memory and difference-aware decay
+MemRoPE,Mainline,Section 6 Compressing and Routing,compress/coordinate,"memory tokens; RoPE; positional memory",Avoid repeating fully in coordinate-memory discussion
+Deep Forcing,Mainline,Section 6 Compressing and Routing,compress/route,"deep sink; participative compression; motion preservation",Discuss as sink/compression mechanism
+Pyramid-Forcing,Mainline,Section 6 Compressing and Routing,route,"head-aware KV cache; anchor/wave/veil heads",Important for head-specialized memory
+Sparse Forcing,Mainline,Section 5 Writing and Retaining,retain,"persistent visual blocks; sparse KV memory",Key implicit memory candidate
+Future Forcing,Mainline,Section 5 Writing and Retaining,retain,"future-aware token selection; KV cache",Use with sparse/persistent retention group
+OmniMem,Mainline,Section 7 Retrieving and Injecting,retrieve,"full-range sparse retrieval; historical KV",Use in retrieval group
+LongLive-RAG,Mainline,Section 7 Retrieving and Injecting,retrieve,"retrieval-augmented latent memory",Central retrieval memory method
+IAMFlow,Mainline,Section 7 Retrieving and Injecting,retrieve/inject,"identity-aware memory; entity table; narrative",Main entity-memory retrieval paper
+SlotMemory,Mainline,Section 5 Writing and Retaining,write/store,"object-centric KV slots; entity memory",Discuss as object-centric write/store mechanism
+EM-Vid,Mainline,Section 6 Compressing and Routing,compress/store,"entity-indexed latent patch bank",Bridge entity memory and efficient latent memory
+Memento,Mainline,Section 8 Updating and Forgetting,update,"subject reconstruction; historical memory",Use as reconstruction-to-remember update signal
+CoTriSyGen,Mainline,Section 8 Updating and Forgetting,update/inject,"closed-loop visual-text-memory synergy; narrative memory",Discuss in closed-loop memory update
+WorldMem,Mainline,Section 5 Writing and Retaining,write/store,"memory frames; pose/time metadata; world simulation",World-state memory storage example
+SpMem,Mainline,Section 5 Writing and Retaining,write/store,"working/spatial/episodic memory",World-model spatial memory foundation
+RELIC,Mainline,Section 6 Compressing and Routing,compress/route,"long-context latent tokens; camera/action metadata",Interactive world model memory efficiency
+LiveWorld,Mainline,Section 8 Updating and Forgetting,update,"persistent global state; out-of-sight dynamics",Central world-state update paper
+ReMind,Mainline,Section 8 Updating and Forgetting,update,"dynamic memory; hidden state evolution",Use with LiveWorld
+Mirage,Mainline,Section 6 Compressing and Routing,store/compress,"latent spatial memory; 3D cache",Spatial cache in diffusion latent space
+MIND,Mainline,Section 9 Evaluating Memory,evaluate,"memory consistency; action control",Core evaluation benchmark
+MBench,Mainline,Section 9 Evaluating Memory,evaluate,"entity consistency; environment consistency; causal consistency",Core memory benchmark
+WorldScore,Supporting,Section 9 Evaluating Memory,evaluate,"world generation; controllability; dynamics",Supporting benchmark
+ iWorld-Bench,Supporting,Section 9 Evaluating Memory,evaluate,"interactive memory; trajectory following",Supporting benchmark
+StreamingT2V,Supporting,Section 5 Writing and Retaining,write/retain,"short-term memory; long-term appearance memory",Early explicit memory precursor
+Sparse VideoGen,Supporting,Section 6 Compressing and Routing,route,"spatial/temporal sparse attention; head profiling",Head-role background
+RIFLEx,Supporting,Section 6 Compressing and Routing,coordinate,"RoPE frequency; length extrapolation",Supports coordinate memory
+LoL Longer than Longer,Supporting,Section 8 Updating and Forgetting,forget/coordinate,"sink-collapse; RoPE jitter; multi-head conflict",Use in failure/forgetting discussion
+FreeLong++,Supporting,Section 6 Compressing and Routing,compress,"multi-band spectral fusion",Frequency-memory support
+FreeSpec,Supporting,Section 6 Compressing and Routing,compress,"singular spectrum reconstruction",Frequency-memory support
+StoryDiffusion,Supporting,Section 7 Retrieving and Injecting,inject,"consistent self-attention; story identity",Identity-memory precursor
+Video Storyboarding,Supporting,Section 7 Retrieving and Injecting,inject,"character consistency; motion tradeoff",Identity/narrative precursor
+ConsisID,Supporting,Section 7 Retrieving and Injecting,inject,"frequency-decomposed identity memory",Identity + frequency bridge
+LaVieID,Supporting,Section 7 Retrieving and Injecting,inject,"facial router; temporal autoregressive ID",Identity-memory precursor
+ConsistI2V,Supporting,Section 7 Retrieving and Injecting,inject,"first-frame attention; low-frequency init",Appearance memory precursor
+Concat-ID,Supporting,Section 7 Retrieving and Injecting,inject,"identity feature concatenation; reference-as-token",Reference-as-memory example
+FantasyID,Supporting,Section 7 Retrieving and Injecting,inject,"3D facial geometry prior; layer-aware injection",Identity memory precursor
+AnyID,Supporting,Section 7 Retrieving and Injecting,inject,"heterogeneous identity references; primary reference",Identity memory precursor
+Slot-ID,Supporting,Section 6 Compressing and Routing,compress/route,"temporal identity tokens; slot encoding",Identity dynamics bridge
+Sora technical report,Background,Section 2 Background and Scope,motivate,"spacetime patches; object permanence; world simulator",Background only unless memory mechanism identified
+Genie 2/3,Background,Section 2 Background and Scope,motivate,"interactive world generation; memory capability",Background technical report
+V-JEPA 2,Background,Section 2 Background and Scope,boundary,"latent prediction; planning; representation world model",Boundary between generative and JEPA-style world models
+MAGI-1,Background,Section 2 Background and Scope,motivate,"chunk AR generation; constant peak cost",System/backbone context
+SkyReels-V2,Background,Section 2 Background and Scope,motivate,"film-level generation; diffusion forcing",System context
+Pyramid Flow,Background,Section 2 Background and Scope,motivate,"long-video backbone; temporal pyramid",Background only
