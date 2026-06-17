@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.14\linewidth}p{0.16\linewidth}p{0.22\linewidth}p{0.38\linewidth}}
+\toprule
+\textbf{Method} & \textbf{Memory object} & \textbf{Substrate} & \textbf{Key idea} \\
+\midrule
+Echo-Forcing & Scene/temporal & Hierarchical KV memory & Stable anchors, compressed history, recent window, scene recall, difference-aware forgetting. \\
+MemRoPE & Temporal/position & Memory tokens + unrotated KV & Long/short EMA memory tokens with online RoPE indexing. \\
+Pyramid-Forcing & Head role/temporal & Head-aware KV cache & Different cache policies for anchor, wave, and veil heads. \\
+IAMFlow & Entity identity & Global ID table + VLM verification & Extract entities from prompts and maintain identity-aware memory across narrative prompts. \\
+SlotMemory & Object/entity & Object-centric KV slots & Organize history by semantic object slots rather than raw time chunks. \\
+LiveWorld & World-state & Persistent global state & Maintain dynamic entities while they are out of sight. \\
+Mirage & Spatial & Latent 3D cache & Store spatial memory in diffusion latent space rather than RGB point clouds. \\
+\bottomrule
+\end{tabular}
+\caption{Representative methods across token, entity, and world-state memory.}
+\label{tab:representative_methods}
+\end{table*}
