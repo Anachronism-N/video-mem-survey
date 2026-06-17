@@ -7,9 +7,15 @@
 - `04_literature_search_protocol_检索与更新协议.md`: 后续检索、复核和 2026-07 锁版流程。
 - `05_final_plan_最终规划确认.md`: v0.2 最终写作规划、精读优先级和图表规划。
 - `06_gap_analysis_遗漏检查与版本边界.md`: 本轮遗漏检查、新增论文和版本边界说明。
+- `07_collection_update_v0.5.md`: v0.5 补充检索、范围扩展和候选论文说明。
+- `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
+- `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
+- `latex/STRUCTURE_PROPOSAL_v0.5.md`: 讨论阶段的主题与文章结构提案。
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
+- `notes/paper_notes/WEB_READ_INDEX_v0.5_SUPPLEMENT.md`: v0.5 新增候选论文笔记索引。
+- `notes/paper_notes/WEB_READ_NOTES_SUPPLEMENT_v0.5.md`: v0.5 新增候选论文结构化精读补充笔记。
 - `notes/paper_notes/READING_NOTES_BUNDLE.md`: 结构化阅读笔记合集，本地 ZIP 已包含完整版本。
 - `notes/paper_notes/WEB_READ_SUMMARY_v0.4.md`: v0.4 全量 web-read 精读状态摘要。
 - `notes/paper_notes/archive/web_read_notes_v0.4_all.tar.xz.b64.part00`: 已推送的 v0.4 全量笔记压缩归档，包含 102 篇逐篇 web-read 笔记、总合集、索引和状态表。
