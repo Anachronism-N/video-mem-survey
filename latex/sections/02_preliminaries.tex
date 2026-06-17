@@ -1,0 +1,13 @@
+\section{Preliminaries}
+
+\subsection{From Short Video Diffusion to Long-Form Generation}
+
+Modern video generation systems commonly build on latent diffusion or diffusion transformer backbones. Short video generation can often rely on dense spatiotemporal attention within a fixed clip. Long-form generation changes the problem: the model must preserve information over rolling windows, across prompt changes, and through repeated scene or character revisits. Backbones such as Diffusion Forcing, CausVid, Self-Forcing, Rolling Forcing, LongLive, and FramePack make the memory problem explicit by introducing causal generation, self-generated rollouts, rolling KV caches, frame sinks, and context compression \citep{diffusionforcing2024,causvid2024,selfforcing2025,rollingforcing2025,longlive2025,framepack2025}.
+
+\subsection{Autoregressive Rollout and KV Cache}
+
+In autoregressive or streaming video generation, the model generates future frames or chunks conditioned on previously generated content. This setup naturally creates a memory budget: retaining all history is expensive, but retaining too little causes identity drift, scene forgetting, and motion discontinuity. A sliding window keeps recent dynamics but loses distant anchors; a static sink preserves early context but may over-stabilize the video and hurt motion.
+
+\subsection{Video World Models}
+
+Video world models extend video generation from visual synthesis to interactive simulation. The model is expected to maintain spatial layout, action-conditioned dynamics, and objects that persist when unseen. Systems such as WorldMem, long-term spatial memory world models, RELIC, LiveWorld, and Mirage show that memory in world models is not only about frame consistency: it includes pose-aware scene recall, latent 3D caches, persistent global state, and out-of-sight dynamics \citep{worldmem2025,spmem2025,relic2025,liveworld2026,mirage2026}.
