@@ -13,6 +13,7 @@
 - `10_detailed_outline_and_lifecycle_analysis_v0.5.3.md`: 更详细的论文目录、各技术路线内部 lifecycle 分析模板、章节命名优化与分级细化。
 - `11_lifecycle_refinement_v0.5.4.md`: 将 lifecycle 重构为 Register/Maintain/Access/Apply/Revise/Validate，解决 Write/Preserve 重叠和叙事顺序问题。
 - `12_prewriting_lock_v0.5.5.md`: 正式写作前锁版文档，固定主题、范围、taxonomy、lifecycle、章节结构和写作顺序。
+- `13_table_figure_revision_v0.5.8.md`: 针对 v0.5.7 的图表和形式化说明修正，明确 Figure 4 完整化、表格保留原则和 Section 5--7 的机制表/形式化要求。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
@@ -20,6 +21,7 @@
 - `tables/paper_grading_hybrid_v0.5.3.csv`: 增加 primary_section、include_reason、verification_status 的新版分级表，可用于后续合并 master table。
 - `latex/STRUCTURE_PROPOSAL_v0.5.md`: 讨论阶段的主题与文章结构提案。
 - `latex/figures/FIGURE_PLAN_AND_PROMPTS_v0.5.5.md`: 需要原创绘制/重绘/引用的图片清单，以及每张图的绘制 prompt。
+- `latex/figures/FIGURE4_COMPLETE_PROMPT_v0.5.8.md`: 完整版 Figure 4 绘制 prompt，覆盖更多相关方法和技术路线。
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
