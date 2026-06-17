@@ -12,12 +12,14 @@
 - `09_hybrid_taxonomy_and_grading_v0.5.2.md`: 技术路线 × lifecycle 的混合分类方案，解决纯 lifecycle 分类缺少技术路线感的问题。
 - `10_detailed_outline_and_lifecycle_analysis_v0.5.3.md`: 更详细的论文目录、各技术路线内部 lifecycle 分析模板、章节命名优化与分级细化。
 - `11_lifecycle_refinement_v0.5.4.md`: 将 lifecycle 重构为 Register/Maintain/Access/Apply/Revise/Validate，解决 Write/Preserve 重叠和叙事顺序问题。
+- `12_prewriting_lock_v0.5.5.md`: 正式写作前锁版文档，固定主题、范围、taxonomy、lifecycle、章节结构和写作顺序。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
 - `tables/paper_grading_hybrid_v0.5.2.csv`: 按混合技术路线和 lifecycle 标准完成的论文 A/B/C/D/E 分级表。
 - `tables/paper_grading_hybrid_v0.5.3.csv`: 增加 primary_section、include_reason、verification_status 的新版分级表，可用于后续合并 master table。
 - `latex/STRUCTURE_PROPOSAL_v0.5.md`: 讨论阶段的主题与文章结构提案。
+- `latex/figures/FIGURE_PLAN_AND_PROMPTS_v0.5.5.md`: 需要原创绘制/重绘/引用的图片清单，以及每张图的绘制 prompt。
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
