@@ -8,8 +8,10 @@
 - `05_final_plan_最终规划确认.md`: v0.2 最终写作规划、精读优先级和图表规划。
 - `06_gap_analysis_遗漏检查与版本边界.md`: 本轮遗漏检查、新增论文和版本边界说明。
 - `07_collection_update_v0.5.md`: v0.5 补充检索、范围扩展和候选论文说明。
+- `08_taxonomy_and_structure_design_v0.5.1.md`: 三层 taxonomy、lifecycle 主线、failure taxonomy 与交叉分类处理方案。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
+- `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
 - `latex/STRUCTURE_PROPOSAL_v0.5.md`: 讨论阶段的主题与文章结构提案。
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
