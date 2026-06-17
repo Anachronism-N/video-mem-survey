@@ -1,0 +1,13 @@
+original_group,original_paper,resolution,action
+S1,MAGI-1,resolved as arXiv:2505.13211,Move to S1 background with note in v0.5 supplement
+S1,Pyramid Flow,resolved as arXiv:2410.05954,Move to S1 background; not memory mainline
+S1,SkyReels-V2,resolved as arXiv:2504.13074,Move to S1 technical-report/system background
+S1,StreamingT2V,resolved as arXiv:2403.14773,Move to memory precursor because it has short-term and long-term memory modules
+S2,H2O / SnapKV / Quest / PyramidKV / SirLLM,split into LLM KV-cache background group,Keep as background group; do not over-expand in video survey
+S2,Sparse VideoGen,resolved as arXiv:2502.01776,Use as head-role/sparse-attention background
+S3,RIFLEx / UltraViCo / LoL,split and resolved partially,RIFLEx and LoL are resolved; UltraViCo still requires verification
+S4,Frequency Regulation for Video Generation,partially unresolved,Keep as to-verify; rely first on FreeLong++ FreeSpec FLEX ConsisID for frequency-memory mainline
+S5,LaVieID / ConsistI2V / Concat-ID / Identity-GRPO / FantasyID,split into individual identity-preserving related works,Use as identity-memory precursor group; verify each before main table integration
+S7,GAIA-1 / DriveDreamer / MagicDrive / Vista / Copilot4D / DriveLM,split into driving-world-model background group,Keep as background; add UniDriveDreamer as new resolved 2026 candidate
+S8,LiveBench / LoopNav / MAG-Bench,unresolved,Do not cite as main benchmark until URL/version verified; use MIND MBench iWorld-Bench WorldScore first
+S8,WorldScore,resolved as arXiv:2504.00983,Move to S8 evaluation benchmark
