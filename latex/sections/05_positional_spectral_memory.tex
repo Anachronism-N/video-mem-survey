@@ -1,0 +1,11 @@
+\section{Positional and Spectral Memory}
+
+Memory is not only content; it also requires coordinates and frequency structure. A historical token is useful only if the model can interpret when it occurred and what frequency components it preserves.
+
+\subsection{Positional Memory and RoPE Conflict}
+RoPE-based temporal coordinates can fail under long autoregressive rollout. If cached keys already contain old positional phases, compression or averaging may mix incompatible coordinates. MemRoPE addresses this by caching unrotated keys and applying RoPE online \citep{memrope2026}. Pyramid-Forcing remaps positions back into the training distribution, while FLEX uses frequency-aware RoPE modulation for horizon extension \citep{pyramidforcing2026,flex2026}. Infinity-RoPE further introduces mechanisms for infinite action-controllable rollout and scene transitions \citep{infinityrope2025}.
+
+\subsection{Spectral Memory}
+Frequency-domain methods argue that long-video degradation is not merely semantic forgetting. Low-frequency components preserve global structure, while high-frequency components carry fine identity details and motion. FreeLong++ uses multi-band spectral fusion, FreeSpec reconstructs singular-spectrum components to mitigate spectral concentration, and ConsisID decomposes identity into low-frequency global cues and high-frequency intrinsic details \citep{freelongpp2025,freespec2026,consisid2024}.
+
+\paragraph{Implication.} A memory system that only keeps low-frequency scene structure may appear stable while losing face details or fine motion. Conversely, injecting high-frequency identity details too aggressively may create flicker or ghosting. Future video memory systems should jointly design content memory, positional memory, and spectral memory.
