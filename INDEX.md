@@ -11,6 +11,7 @@
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
 - `notes/paper_notes/READING_NOTES_BUNDLE.md`: 结构化阅读笔记合集，本地 ZIP 已包含完整版本。
+- `notes/paper_notes/WEB_READ_SUMMARY_v0.4.md`: v0.4 全量 web-read 精读状态摘要；本地 ZIP 包含 102 篇逐篇笔记、总合集与状态表。
 - `latex/main.tex`: AAAI-style survey draft entry point.
 - `latex/sections/`: 初步填充的论文章节。
 - `latex/tables/`: taxonomy/lifecycle/representative methods LaTeX tables。
