@@ -1,0 +1,12 @@
+\section{Spatial and World-State Memory in Video World Models}
+
+In ordinary video generation, memory preserves visual continuity. In video world models, memory defines whether a world persists. This requires spatial memory, action-conditioned dynamics, and hidden-state evolution.
+
+\subsection{Spatial Memory}
+WorldMem stores memory frames together with state metadata such as pose and timestamp, enabling long-term consistent world simulation \citep{worldmem2025}. Long-term spatial memory world models separate working memory, spatial memory, and episodic memory to support scene revisiting \citep{spmem2025}. WorldPack, RELIC, Mirage, and hybrid spatial memory systems further explore compressed trajectory memory, latent token history, latent 3D caches, and 3D patch lifting \citep{worldpack2025,relic2025,mirage2026,mosaicmem2026}.
+
+\subsection{Out-of-Sight Dynamics}
+A central world-model failure is that objects stop evolving when they leave the camera view. LiveWorld explicitly studies out-of-sight dynamics by maintaining persistent global state for static 3D background and dynamic entities \citep{liveworld2026}. ReMind similarly focuses on dynamic memory for hidden state evolution \citep{remind2026}.
+
+\subsection{From Video Memory to World-State Memory}
+Entity memory in video generation and world-state memory in world models should eventually merge. A recurring character should not only look the same; it should also have persistent position, attributes, action state, and plausible evolution while unseen.
