@@ -1,0 +1,28 @@
+\section{Introduction}
+
+Recent video generation systems have rapidly advanced from short text-to-video clips to long-form, streaming, and interactive video generation. However, as generation horizons grow from seconds to minutes, models often fail in ways that are better described as \emph{memory failures} than as generic temporal inconsistency: a character's face or outfit drifts, an old scene cannot be revisited faithfully, a video collapses into a loop, or a world model freezes objects that leave the camera view. This survey argues that long-form video generation is not merely a problem of longer context; it is a problem of structured memory.
+
+Existing surveys have organized the field around diffusion architectures, spatiotemporal consistency, controllability, storytelling, or video generation as world modeling. These perspectives are important, but they often treat memory implicitly. In contrast, this survey asks a different set of questions: what should video models remember, where should the memory be stored, how should it be retrieved and used, when should it be updated, and when should it be forgotten?
+
+We propose a memory-centric taxonomy for video generation and video world models. The taxonomy has three axes. The first axis is the \textbf{memory object}: identity, scene, motion, temporal position, entity state, spatial layout, world state, and system-level cache budget. The second axis is the \textbf{memory substrate}: frames, KV caches, sink tokens, compressed memory tokens, RoPE coordinates, frequency spectra, entity tables, latent patch banks, 3D caches, and recurrent or state-space states. The third axis is the \textbf{memory lifecycle}: write, store, retrieve, use, update, forget, and evaluate.
+
+\begin{figure*}[t]
+\centering
+\fbox{\parbox{0.92\linewidth}{\centering\vspace{0.18in}
+\textbf{Figure placeholder: Memory failure taxonomy.}\\
+Identity drift $\rightarrow$ scene forgetting $\rightarrow$ motion loop/frozen video $\rightarrow$ RoPE phase conflict $\rightarrow$ entity duplication $\rightarrow$ out-of-sight freezing.\\
+\emph{Needed figure: a 6-panel diagnostic diagram with one small generated-video storyboard per failure.}
+\vspace{0.18in}}}
+\caption{A memory-centric view of long-form video generation failures. The final version should use visual examples or schematic panels rather than paper screenshots unless permissions are clear.}
+\label{fig:failure_taxonomy}
+\end{figure*}
+
+\paragraph{Scope.} We cover three connected families of work: (i) long and streaming video generation backbones such as self-forcing, rolling forcing, and frame-level autoregressive systems; (ii) memory mechanisms for video generation, including KV cache policies, RoPE remapping, sparse retrieval, identity anchors, entity memory, and frequency-domain correction; and (iii) video world models, where memory is upgraded from visual continuity to spatial persistence, object permanence, and hidden-state evolution.
+
+\paragraph{Contributions.} This survey makes four contributions:
+\begin{itemize}[leftmargin=1.2em]
+    \item We introduce a memory-centric taxonomy that separates memory object, memory substrate, and memory lifecycle.
+    \item We unify implicit token memory, identity/entity memory, and spatial/world-state memory under a common framework.
+    \item We summarize representative methods and identify how they write, retrieve, update, and forget memory.
+    \item We discuss evaluation protocols and open problems, especially the risk that simple consistency metrics reward frozen or looping videos.
+\end{itemize}
