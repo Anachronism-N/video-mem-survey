@@ -1,0 +1,13 @@
+\section{Open Problems and Future Directions}
+
+\paragraph{From passive retention to active recall.} Most cache methods decide which tokens to keep. A stronger system should decide which identity, scene, or entity evidence to actively recall for the current query.
+
+\paragraph{From temporal chunks to entity-state memory.} Frame-indexed memory is insufficient for narratives. Future systems should store persistent entity state: appearance, attributes, position, role, and temporal evolution.
+
+\paragraph{Head- and layer-specialized memory.} Pyramid-Forcing shows that attention heads have different temporal roles. A natural next step is to identify identity, motion, layout, and style heads, then assign memory policies accordingly.
+
+\paragraph{Memory, coordinates, and spectrum co-design.} Token memory without coordinate correction can retrieve the right content at the wrong time. Coordinate correction without spectral preservation can lose identity detail or motion. Future systems should co-design content memory, positional memory, and spectral memory.
+
+\paragraph{Memory-aware forgetting.} Forgetting is not a bug. Prompt switching, scene changes, and entity attribute updates require conflict-aware memory decay, flushing, or rewriting.
+
+\paragraph{Unified video and world memory.} The long-term direction is a unified entity-state memory that bridges video generation and world modeling: the same entity should persist visually, spatially, and causally.
