@@ -1,0 +1,15 @@
+\section{Identity, Entity, and Narrative Memory}
+
+Identity and entity memory move beyond generic temporal tokens. The key question is no longer only which frames to keep, but which \emph{entity} is being remembered and which attributes should persist.
+
+\subsection{Reference-Based Identity Memory}
+StoryDiffusion and Video Storyboarding modify self-attention or query features to improve character consistency across long-range images, videos, or multi-shot storyboards \citep{storydiffusion2024,videostoryboarding2024}. ConsisID and TPIGE preserve identity by using reference images, frequency-decomposed identity features, prompt enhancement, and identity-aware guidance \citep{consisid2024,tpige2025}.
+
+\subsection{Identity--Motion Trade-off}
+Identity preservation is not always beneficial if it suppresses motion. Video Storyboarding is especially important because it frames identity consistency as a trade-off with motion and prompt responsiveness \citep{videostoryboarding2024}. This trade-off also appears implicitly in sink-based long video methods: over-retaining identity anchors can make a video stable but static.
+
+\subsection{Explicit Entity Memory}
+IAMFlow extracts entities and visual attributes from prompts, assigns global IDs, and uses VLM-based verification to maintain identity-aware memory across narrative prompts \citep{iamflow2026}. SlotMemory organizes history into object-centric KV slots rather than temporal chunks, while EM-Vid maintains an entity-indexed sparse latent patch bank \citep{slotmemory2026,emvid2026}. Memento uses subject reconstruction as a training signal to ensure that memory actually preserves recurring subjects \citep{memento2026}.
+
+\subsection{Narrative and Closed-Loop Memory}
+Long-form story generation requires character, scene, and style memory across shots. VideoMemory, StoryMem, and CoTriSyGen represent this direction: memory is a mutable state that is repeatedly read and written during shot-level generation \citep{videomemory2026,storymem2025,cotrisygen2026}.
