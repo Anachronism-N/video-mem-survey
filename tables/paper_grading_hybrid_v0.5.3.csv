@@ -1,0 +1,75 @@
+paper,grade,primary_technical_route,lifecycle_focus,primary_section,secondary_tags,include_reason,verification_status
+Echo-Forcing,A,Implicit Token Memory in Attention and KV Caches,retain/retrieve/forget,Section 5,"scene memory; hierarchical KV; recall frames",Core scene memory framework with hierarchical temporal memory scene recall and difference-aware decay,verified-v0.4
+MemRoPE,A,Implicit Token Memory in Attention and KV Caches,compress/retain/coordinate,Section 5,"memory tokens; online RoPE; positional memory",Core evolving-memory-token method; cross-referenced in temporal coordinate section,verified-v0.4
+Deep Forcing,A,Implicit Token Memory in Attention and KV Caches,compress/route,Section 5,"deep sink; participative compression",Core sink/compression method for long video memory,verified-v0.4
+Pyramid-Forcing,A,Implicit Token Memory in Attention and KV Caches,route/compress,Section 5,"head-aware KV cache; anchor/wave/veil heads",Core head-aware memory routing method,verified-v0.4
+Sparse Forcing,A,Implicit Token Memory in Attention and KV Caches,retain/update,Section 5,"persistent visual blocks; sparse KV",Explicit implicit spatiotemporal KV memory candidate,new-v0.5
+Future Forcing,A,Implicit Token Memory in Attention and KV Caches,retain,Section 5,"future-aware cache; KV selection",Core future-aware retention policy,metadata-web-ready
+OmniMem,A,Retrieval-Augmented Recall in Video Generation,retrieve,Section 8,"sparse KV retrieval; historical context",Core retrieval-augmented video memory method,verified-v0.4
+LongLive-RAG,A,Retrieval-Augmented Recall in Video Generation,retrieve/inject,Section 8,"latent retrieval; RAG for long video",Core RAG-style video memory method,verified-v0.4
+KV Cache Quantization for Self-Forcing,A,Implicit Token Memory in Attention and KV Caches,compress,Section 5,"KV quantization; cache budget; systems memory",Important systems-memory study; explains memory budget and compression trade-offs,verified-v0.4
+IAMFlow,A,From Identity Anchors to Entity-Narrative Memory,write/retrieve/inject/update,Section 7,"entity IDs; identity-aware memory; VLM verification",Core explicit identity/entity memory framework,verified-v0.4
+SlotMemory,A,From Identity Anchors to Entity-Narrative Memory,write/store/retrieve,Section 7,"object-centric KV slots; entity memory",Core object-centric memory method,verified-v0.4
+EM-Vid,A,From Identity Anchors to Entity-Narrative Memory,store/compress/retrieve,Section 7,"entity-indexed latent patch bank",Core entity-centric latent memory method,verified-v0.4
+Memento,A,From Identity Anchors to Entity-Narrative Memory,update/evaluate,Section 7,"subject reconstruction; remember-by-reconstruction",Core subject-memory update/evaluation method,verified-v0.4
+CoTriSyGen,A,From Identity Anchors to Entity-Narrative Memory,inject/update,Section 7,"closed-loop visual-text-memory synergy",Core closed-loop narrative memory method,verified-v0.4
+WorldMem,A,From Visual Continuity to World-State Persistence,write/store/retrieve,Section 9,"memory frames; pose/time metadata; world simulation",Core world-state memory method,verified-v0.4
+SpMem / Video World Models with Long-Term Spatial Memory,A,From Visual Continuity to World-State Persistence,write/store,Section 9,"working memory; spatial memory; episodic memory",Core long-term spatial memory method,verified-v0.4
+RELIC,A,From Visual Continuity to World-State Persistence,compress/route,Section 9,"long-context latent tokens; camera/action metadata",Core real-time long-context interactive world-model memory,verified-v0.4
+LiveWorld,A,From Visual Continuity to World-State Persistence,update,Section 9,"persistent global state; out-of-sight dynamics",Core hidden-state update and out-of-sight memory method,verified-v0.4
+ReMind,A,From Visual Continuity to World-State Persistence,update,Section 9,"dynamic memory; hidden state evolution",Core dynamic memory for unseen state evolution,verified-v0.4
+Mirage / Latent Spatial Memory,A,From Visual Continuity to World-State Persistence,store/compress,Section 9,"latent 3D cache; spatial memory",Core latent spatial memory method,verified-v0.4
+MosaicMem / Hybrid Spatial Memory,A,From Visual Continuity to World-State Persistence,store/route,Section 9,"hybrid explicit-implicit spatial memory",Core spatial memory variant,verified-v0.4
+MIND,A,Evaluating Memory Beyond Surface Consistency,evaluate,Section 10,"memory consistency; action control; closed-loop",Core memory/action-control benchmark,verified-v0.4
+MBench,A,Evaluating Memory Beyond Surface Consistency,evaluate,Section 10,"entity consistency; environment consistency; causal consistency",Core memory capability benchmark,new-v0.5
+StreamingT2V,B,Implicit Token Memory in Attention and KV Caches,write/retain,Section 5,"short-term memory; long-term appearance preservation",Early explicit memory precursor; supporting not central,new-v0.5
+Sparse VideoGen,B,Implicit Token Memory in Attention and KV Caches,route,Section 5,"spatial/temporal sparse attention; head profiling",Supports head-role memory and sparse attention background,new-v0.5
+LVSA,B,Implicit Token Memory in Attention and KV Caches,retrieve/route,Section 5,"sparse attention; rotating anchors",Relevant sparse long-video attention but less central than Sparse Forcing/Pyramid-Forcing,metadata-web-ready
+FramePack,B,Implicit Token Memory in Attention and KV Caches,compress/retain,Section 5,"frame context packing; constant-length context",Useful backbone/system memory support,metadata-web-ready
+LongLive,B,Implicit Token Memory in Attention and KV Caches,retain/retrieve,Section 5,"streaming long video; causal cache",Backbone context with memory implications,metadata-web-ready
+Self-Forcing,B,Implicit Token Memory in Attention and KV Caches,retain,Section 5,"AR rollout; self-generated context",Backbone for many cache-memory methods,metadata-web-ready
+Rolling Forcing,B,Implicit Token Memory in Attention and KV Caches,retain,Section 5,"rolling context; streaming generation",Backbone/context for memory emergence,metadata-web-ready
+Causal-Forcing,B,Implicit Token Memory in Attention and KV Caches,retain,Section 5,"causal rollout; streaming context",Backbone/context,metadata-web-ready
+Diffusion Forcing,B,Implicit Token Memory in Attention and KV Caches,retain,Section 5,"sequence diffusion; temporal rollout",Foundational autoregressive/diffusion background,metadata-web-ready
+RIFLEx,B,Remembering Time: Positional and Spectral Memory,coordinate,Section 6,"RoPE frequency; length extrapolation",Important support for positional memory route,new-v0.5
+LoL: Longer than Longer,B,Remembering Time: Positional and Spectral Memory,forget/coordinate,Section 6,"sink collapse; RoPE jitter; multi-head conflict",Important support for coordinate-memory failure and mitigation,new-v0.5
+FLEX,B,Remembering Time: Positional and Spectral Memory,coordinate,Section 6,"frequency-aware RoPE; long inference",Supporting coordinate extension method,metadata-web-ready
+Infinity-RoPE,B,Remembering Time: Positional and Spectral Memory,coordinate,Section 6,"infinite controllable rollout; RoPE",Supporting positional memory method,metadata-web-ready
+FreeLong++,B,Remembering Time: Positional and Spectral Memory,compress/retain,Section 6,"multi-band spectral fusion",Supporting frequency memory method,metadata-web-ready
+FreeSpec,B,Remembering Time: Positional and Spectral Memory,compress/retain,Section 6,"singular-spectrum reconstruction",Supporting spectral memory method,metadata-web-ready
+Frequency Regulation for Video Generation,B,Remembering Time: Positional and Spectral Memory,retain,Section 6,"frequency regulation; temporal consistency",Keep as support after verification,metadata-only-to-verify
+StoryDiffusion,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"consistent self-attention; story identity",Important identity/story precursor,metadata-web-ready
+Video Storyboarding,B,From Identity Anchors to Entity-Narrative Memory,inject/evaluate,Section 7,"multi-shot consistency; motion tradeoff",Important identity/narrative precursor,metadata-web-ready
+ConsisID,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"frequency-decomposed ID; face identity",Supporting identity memory with frequency bridge,metadata-web-ready
+TPIGE,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"prompt/image/guidance enhancement; identity",Supporting training-free identity preservation,metadata-web-ready
+LaVieID,B,From Identity Anchors to Entity-Narrative Memory,inject/update,Section 7,"facial router; temporal autoregressive ID",Identity-memory precursor,new-v0.5
+ConsistI2V,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"first-frame attention; low-frequency init",Appearance/first-frame memory precursor,new-v0.5
+Concat-ID,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"identity feature concatenation; reference-as-token",Reference-as-memory example,new-v0.5
+FantasyID,B,From Identity Anchors to Entity-Narrative Memory,inject,Section 7,"3D facial geometry; layer-aware injection",Identity-memory support,new-v0.5
+AnyID,B,From Identity Anchors to Entity-Narrative Memory,write/inject,Section 7,"heterogeneous ID references; primary reference",Universal identity memory support,new-v0.5
+Slot-ID,B,From Identity Anchors to Entity-Narrative Memory,compress/route,Section 7,"temporal identity tokens; slot encoding",Identity dynamics bridge,new-v0.5
+VideoMemory,B,From Identity Anchors to Entity-Narrative Memory,store/retrieve,Section 7,"memory bank; video consistency",Supporting narrative/video memory method,metadata-web-ready
+StoryMem,B,From Identity Anchors to Entity-Narrative Memory,store/retrieve,Section 7,"compact story memory",Supporting narrative memory method,metadata-web-ready
+Context-as-Memory,B,Retrieval-Augmented Recall in Video Generation,retrieve,Section 8,"scene-consistent context memory",Important retrieval/context memory support,metadata-web-ready
+DecMem,B,Retrieval-Augmented Recall in Video Generation,compress/retrieve,Section 8,"decomposed memory; efficient retrieval",Supporting retrieval memory if verified,metadata-web-ready
+WorldPack,B,From Visual Continuity to World-State Persistence,compress/store,Section 9,"compressed spatial memory",Supporting world-memory method,metadata-web-ready
+UniDriveDreamer,B,From Visual Continuity to World-State Persistence,store/update,Section 9,"video-LiDAR latent anchoring; driving world model",Embodied multimodal memory support,new-v0.5
+GAIA-1 / DriveDreamer / MagicDrive family,B,From Visual Continuity to World-State Persistence,store/update,Section 9,"driving scene memory; action-conditioned simulation",Background/supporting embodied world-model route,metadata-only-split
+WorldScore,B,Evaluating Memory Beyond Surface Consistency,evaluate,Section 10,"world generation; controllability; dynamics",Supporting benchmark not purely memory-specific,new-v0.5
+iWorld-Bench,B,Evaluating Memory Beyond Surface Consistency,evaluate,Section 10,"interactive memory; trajectory following",Supporting interactive benchmark,new-v0.5
+NarraStream-Bench,B,Evaluating Memory Beyond Surface Consistency,evaluate,Section 10,"narrative streaming; identity/multi-prompt consistency",Benchmark introduced with IAMFlow,verified-v0.4
+MAGI-1,C,Background and Scope,motivate,Section 2,"chunk AR generation; constant peak cost",Important long-video backbone but not memory method,new-v0.5
+SkyReels-V2,C,Background and Scope,motivate,Section 2,"film-level generation; diffusion forcing",System background; not memory mechanism,new-v0.5
+Pyramid Flow,C,Background and Scope,motivate,Section 2,"temporal pyramid; flow matching",Backbone background,new-v0.5
+Sora technical report,C,Background and Scope,motivate,Section 2,"spacetime patches; object permanence; world simulator",High-level motivation for world-simulator memory issues,new-v0.5
+Genie 2/3,C,Background and Scope,motivate,Section 2,"interactive world generation; persistent environments",Technical-report background unless mechanism details available,new-v0.5
+V-JEPA 2,C,Background and Scope,boundary,Section 2,"latent world model; planning; representation",Boundary between generative video models and JEPA-style world models,new-v0.5
+A Survey on Long Video Generation,C,Background and Scope,boundary,Section 2,"long-video taxonomy",Adjacent survey; cite to position this survey,verified-v0.4
+Video Diffusion Models surveys,C,Background and Scope,boundary,Section 2,"video diffusion architecture",Adjacent background,verified-v0.4
+Controllable Video Generation survey,C,Background and Scope,boundary,Section 2,"control taxonomy",Adjacent background,verified-v0.4
+Long-Video Storytelling survey,C,Background and Scope,boundary,Section 2,"story generation; consistency",Adjacent survey; useful for narrative scope,verified-v0.4
+Spatiotemporal Consistency survey,C,Background and Scope,boundary,Section 2,"consistency taxonomy",Adjacent survey; distinguishes memory from consistency,verified-v0.4
+Generic LLM KV cache methods,D,Background and Scope,analogy,Section 2,"H2O; SnapKV; Quest; PyramidKV; SirLLM",Use only as analogy or background; do not dominate video survey,boundary
+Generic robotics world-model surveys,D,Background and Scope,boundary,Section 2,"robot learning; planning",Use to position embodied memory only,boundary
+LiveBench / LoopNav / MAG-Bench,E,Unresolved,evaluate,none,"to verify",Do not cite as main benchmark until stable URL/version verified,unresolved
+UltraViCo,E,Unresolved,coordinate,none,"to verify",Keep unresolved until paper identity is confirmed,unresolved
