@@ -1,0 +1,75 @@
+paper,grade,primary_technical_route,lifecycle_focus,secondary_tags,decision_reason
+Echo-Forcing,A,Token/KV/Attention Memory,retain/retrieve/forget,"scene memory; hierarchical KV; recall frames",Explicit scene memory framework with hierarchical temporal memory scene recall and difference-aware decay
+MemRoPE,A,Token/KV/Attention Memory,compress/retain,"memory tokens; online RoPE; positional memory",Core method for evolving memory tokens and fixed-size infinite video cache
+Deep Forcing,A,Token/KV/Attention Memory,compress/route,"deep sink; participative compression; motion preservation",Core sink/compression mechanism for long video memory
+Pyramid-Forcing,A,Token/KV/Attention Memory,route/compress,"head-aware cache; anchor/wave/veil heads; positional memory",Core head-aware KV memory routing method
+Sparse Forcing,A,Token/KV/Attention Memory,retain/update,"persistent visual blocks; sparse KV; system memory",Explicitly interprets persistent KV blocks as implicit spatiotemporal memory
+Future Forcing,A,Token/KV/Attention Memory,retain,"future-aware cache; KV selection",Core future-aware retention policy
+OmniMem,A,Retrieval-Augmented/External Memory,retrieve,"sparse KV retrieval; historical context",Core retrieval-augmented long-video memory method
+LongLive-RAG,A,Retrieval-Augmented/External Memory,retrieve/inject,"latent retrieval; RAG for long video",Core RAG-style video memory method
+KV Cache Quantization for Self-Forcing,A,System/Efficient Memory,compress,"KV quantization; cache budget; systems memory",Important systems-memory study; explains memory budget and compression trade-offs
+IAMFlow,A,Reference/Identity/Entity/Narrative Memory,write/retrieve/inject/update,"entity IDs; identity-aware memory; VLM verification",Core explicit entity identity memory framework
+SlotMemory,A,Reference/Identity/Entity/Narrative Memory,write/store/retrieve,"object-centric KV slots; entity memory",Core object-centric memory method
+EM-Vid,A,Reference/Identity/Entity/Narrative Memory,store/compress/retrieve,"entity-indexed latent patch bank",Core entity-centric latent memory method
+Memento,A,Reference/Identity/Entity/Narrative Memory,update/evaluate,"subject reconstruction; remember-by-reconstruction",Core subject-memory update/evaluation method
+CoTriSyGen,A,Reference/Identity/Entity/Narrative Memory,inject/update,"closed-loop visual-text-memory synergy",Core closed-loop narrative memory method
+WorldMem,A,Spatial/World-State/Embodied Memory,write/store/retrieve,"memory frames; pose/time metadata; world simulation",Core world-state memory method
+SpMem / Video World Models with Long-Term Spatial Memory,A,Spatial/World-State/Embodied Memory,write/store,"working memory; spatial memory; episodic memory",Core long-term spatial memory method
+RELIC,A,Spatial/World-State/Embodied Memory,compress/route,"long-context latent tokens; camera/action metadata",Core real-time long-context interactive world model memory
+LiveWorld,A,Spatial/World-State/Embodied Memory,update,"persistent global state; out-of-sight dynamics",Core hidden state update and out-of-sight memory method
+ReMind,A,Spatial/World-State/Embodied Memory,update,"dynamic memory; hidden state evolution",Core dynamic memory for unseen state evolution
+Mirage / Latent Spatial Memory,A,Spatial/World-State/Embodied Memory,store/compress,"latent 3D cache; spatial memory",Core latent spatial memory method
+MosaicMem / Hybrid Spatial Memory,A,Spatial/World-State/Embodied Memory,store/route,"hybrid explicit-implicit spatial memory",Core spatial memory variant
+MIND,A,Evaluation/Benchmarks,evaluate,"memory consistency; action control; closed-loop",Core memory/action-control benchmark
+MBench,A,Evaluation/Benchmarks,evaluate,"entity consistency; environment consistency; causal consistency",Core memory capability benchmark
+StreamingT2V,B,Token/KV/Attention Memory,write/retain,"short-term memory; long-term appearance preservation",Early explicit memory precursor; supporting not central
+Sparse VideoGen,B,Token/KV/Attention Memory,route,"spatial/temporal sparse attention; head profiling",Supports head-role memory and sparse attention background
+LVSA,B,Token/KV/Attention Memory,retrieve/route,"sparse attention; rotating anchors",Relevant sparse long-video attention but less central than Sparse Forcing/Pyramid-Forcing
+FramePack,B,Token/KV/Attention Memory,compress/retain,"frame context packing; constant-length context",Useful backbone/system memory support
+LongLive,B,Token/KV/Attention Memory,retain/retrieve,"streaming long video; causal cache",Backbone context with memory implications
+Self-Forcing,B,Token/KV/Attention Memory,retain,"AR rollout; self-generated context",Backbone for many cache-memory methods
+Rolling Forcing,B,Token/KV/Attention Memory,retain,"rolling context; streaming generation",Backbone/context for memory emergence
+Causal-Forcing,B,Token/KV/Attention Memory,retain,"causal rollout; streaming context",Backbone/context
+Diffusion Forcing,B,Token/KV/Attention Memory,retain,"sequence diffusion; temporal rollout",Foundational autoregressive/diffusion background
+RIFLEx,B,Positional/Coordinate/Spectral Memory,coordinate,"RoPE frequency; length extrapolation",Important support for positional memory route
+LoL: Longer than Longer,B,Positional/Coordinate/Spectral Memory,forget/coordinate,"sink collapse; RoPE jitter; multi-head conflict",Important support for coordinate-memory failure and mitigation
+FLEX,B,Positional/Coordinate/Spectral Memory,coordinate,"frequency-aware RoPE; long inference",Supporting coordinate extension method
+Infinity-RoPE,B,Positional/Coordinate/Spectral Memory,coordinate,"infinite controllable rollout; RoPE",Supporting positional memory method
+FreeLong++,B,Positional/Coordinate/Spectral Memory,compress/retain,"multi-band spectral fusion",Supporting frequency memory method
+FreeSpec,B,Positional/Coordinate/Spectral Memory,compress/retain,"singular-spectrum reconstruction",Supporting spectral memory method
+Frequency Regulation for Video Generation,B,Positional/Coordinate/Spectral Memory,retain,"frequency regulation; temporal consistency",Keep as support after verification
+StoryDiffusion,B,Reference/Identity/Entity/Narrative Memory,inject,"consistent self-attention; story identity",Important identity/story precursor
+Video Storyboarding,B,Reference/Identity/Entity/Narrative Memory,inject/evaluate,"multi-shot consistency; motion tradeoff",Important identity/narrative precursor
+ConsisID,B,Reference/Identity/Entity/Narrative Memory,inject,"frequency-decomposed ID; face identity",Supporting identity memory with frequency bridge
+TPIGE,B,Reference/Identity/Entity/Narrative Memory,inject,"prompt/image/guidance enhancement; identity",Supporting training-free identity preservation
+LaVieID,B,Reference/Identity/Entity/Narrative Memory,inject/update,"facial router; temporal autoregressive ID",Identity-memory precursor
+ConsistI2V,B,Reference/Identity/Entity/Narrative Memory,inject,"first-frame attention; low-frequency init",Appearance/first-frame memory precursor
+Concat-ID,B,Reference/Identity/Entity/Narrative Memory,inject,"identity feature concatenation; reference-as-token",Reference-as-memory example
+FantasyID,B,Reference/Identity/Entity/Narrative Memory,inject,"3D facial geometry; layer-aware injection",Identity-memory support
+AnyID,B,Reference/Identity/Entity/Narrative Memory,write/inject,"heterogeneous ID references; primary reference",Universal identity memory support
+Slot-ID,B,Reference/Identity/Entity/Narrative Memory,compress/route,"temporal identity tokens; slot encoding",Identity dynamics bridge
+VideoMemory,B,Reference/Identity/Entity/Narrative Memory,store/retrieve,"memory bank; video consistency",Supporting narrative/video memory method
+StoryMem,B,Reference/Identity/Entity/Narrative Memory,store/retrieve,"compact story memory",Supporting narrative memory method
+Context-as-Memory,B,Retrieval-Augmented/External Memory,retrieve,"scene-consistent context memory",Important retrieval/context memory support
+DecMem,B,Retrieval-Augmented/External Memory,compress/retrieve,"decomposed memory; efficient retrieval",Supporting retrieval memory if verified
+WorldPack,B,Spatial/World-State/Embodied Memory,compress/store,"compressed spatial memory",Supporting world-memory method
+UniDriveDreamer,B,Spatial/World-State/Embodied Memory,store/update,"video-LiDAR latent anchoring; driving world model",Embodied multimodal memory support
+GAIA-1 / DriveDreamer / MagicDrive family,B,Spatial/World-State/Embodied Memory,store/update,"driving scene memory; action-conditioned simulation",Background/supporting embodied world-model route
+WorldScore,B,Evaluation/Benchmarks,evaluate,"world generation; controllability; dynamics",Supporting benchmark not purely memory-specific
+iWorld-Bench,B,Evaluation/Benchmarks,evaluate,"interactive memory; trajectory following",Supporting interactive benchmark
+NarraStream-Bench,B,Evaluation/Benchmarks,evaluate,"narrative streaming; identity/multi-prompt consistency",Benchmark introduced with IAMFlow
+MAGI-1,C,Background/Backbone Context,motivate,"chunk AR generation; constant peak cost",Important long-video backbone but not memory method
+SkyReels-V2,C,Background/Backbone Context,motivate,"film-level generation; diffusion forcing",System background; not memory mechanism
+Pyramid Flow,C,Background/Backbone Context,motivate,"temporal pyramid; flow matching",Backbone background
+Sora technical report,C,Background/Backbone Context,motivate,"spacetime patches; object permanence; world simulator",High-level motivation for world-simulator memory issues
+Genie 2/3,C,Background/Backbone Context,motivate,"interactive world generation; persistent environments",Technical-report background unless mechanism details available
+V-JEPA 2,C,Boundary/Background,boundary,"latent world model; planning; representation",Important boundary between generative video models and JEPA-style world models
+A Survey on Long Video Generation,C,Boundary/Surveys,boundary,"long-video taxonomy",Adjacent survey; cite to position this survey
+Video Diffusion Models surveys,C,Boundary/Surveys,boundary,"video diffusion architecture",Adjacent background
+Controllable Video Generation survey,C,Boundary/Surveys,boundary,"control taxonomy",Adjacent background
+Long-Video Storytelling survey,C,Boundary/Surveys,boundary,"story generation; consistency",Adjacent survey; useful for narrative scope
+Spatiotemporal Consistency survey,C,Boundary/Surveys,boundary,"consistency taxonomy",Adjacent survey; distinguishes memory from consistency
+Generic LLM KV cache methods,D,Boundary/Analogy,analogy,"H2O; SnapKV; Quest; PyramidKV; SirLLM",Use only as analogy or background; do not dominate video survey
+Generic robotics world-model surveys,D,Boundary/Analogy,boundary,"robot learning; planning",Use to position embodied memory only
+LiveBench / LoopNav / MAG-Bench,E,Unresolved,evaluate,"to verify",Do not cite as main benchmark until stable URL/version verified
+UltraViCo,E,Unresolved,coordinate,"to verify",Keep unresolved until paper identity is confirmed
