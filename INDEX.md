@@ -17,6 +17,7 @@
 - `14_training_regime_and_section8_10_v0.5.9.md`: 新增训练/免训练横向维度，并扩展 Section 8--10 的 retrieval/world-state/evaluation 表格和写作策略。
 - `15_v060_self_improvement_and_research_agenda.md`: v0.6.0 自我审稿与继续生成说明，新增 open problems、research agenda、scope limitations 和 conclusion。
 - `16_v061_formal_tables_and_latex_method_landscape.md`: v0.6.1 形式化、伪代码、覆盖审计表和 LaTeX 原生 method landscape matrix 的修正说明。
+- `17_v062_polish_and_figure4_coverage_audit.md`: v0.6.2 润色与 Figure 4 覆盖审计，明确主图、覆盖表和 102 篇补充表的分工，并标记世界模型遗漏。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
