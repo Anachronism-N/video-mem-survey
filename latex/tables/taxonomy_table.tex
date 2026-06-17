@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.16\linewidth}p{0.23\linewidth}p{0.23\linewidth}p{0.28\linewidth}}
+\toprule
+\textbf{Memory object} & \textbf{What is remembered} & \textbf{Typical failure} & \textbf{Representative directions} \\
+\midrule
+Identity & Face, clothing, subject attributes & Identity drift, character swap & StoryDiffusion, Video Storyboarding, ConsisID, IAMFlow, Memento \\
+Scene/layout & Background and object layout & Scene forgetting, background contamination & Echo-Forcing, Context-as-Memory, WorldMem \\
+Motion/event & Velocity and event progression & Frozen video, loop, motion stagnation & Deep Forcing, LVSA, FreeSpec, FLEX \\
+Position & Temporal coordinates and RoPE phase & Phase conflict, position jump & MemRoPE, Pyramid-Forcing, Infinity-RoPE \\
+Entity/narrative & Global entity ID and attributes & Duplication, attribute loss & IAMFlow, SlotMemory, EM-Vid, StoryMem \\
+Spatial/world-state & 3D layout and hidden state & Revisit inconsistency, out-of-sight freezing & WorldMem, SpMem, LiveWorld, Mirage \\
+System & KV budget and retrieval cost & Memory overflow, quality/runtime trade-off & Quant VideoGen, OmniMem, DecMem \\
+\bottomrule
+\end{tabular}
+\caption{Memory objects in long-form video generation and video world models.}
+\label{tab:memory_objects}
+\end{table*}
