@@ -19,6 +19,7 @@
 - `16_v061_formal_tables_and_latex_method_landscape.md`: v0.6.1 形式化、伪代码、覆盖审计表和 LaTeX 原生 method landscape matrix 的修正说明。
 - `17_v062_polish_and_figure4_coverage_audit.md`: v0.6.2 润色与 Figure 4 覆盖审计，明确主图、覆盖表和 102 篇补充表的分工，并标记世界模型遗漏。
 - `18_v063_new_world_model_papers_and_f4_visuals.md`: v0.6.3 新增世界模型记忆论文、精讲文档与非表格式 Figure 4 方案说明。
+- `19_v064_insert_new_world_papers_into_draft.md`: v0.6.4 将 WorldKV、HyDRA/HM-World、GIM-World 等新增世界模型记忆论文正式写入主稿、表格和参考文献。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
