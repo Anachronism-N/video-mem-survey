@@ -18,6 +18,7 @@
 - `15_v060_self_improvement_and_research_agenda.md`: v0.6.0 自我审稿与继续生成说明，新增 open problems、research agenda、scope limitations 和 conclusion。
 - `16_v061_formal_tables_and_latex_method_landscape.md`: v0.6.1 形式化、伪代码、覆盖审计表和 LaTeX 原生 method landscape matrix 的修正说明。
 - `17_v062_polish_and_figure4_coverage_audit.md`: v0.6.2 润色与 Figure 4 覆盖审计，明确主图、覆盖表和 102 篇补充表的分工，并标记世界模型遗漏。
+- `18_v063_new_world_model_papers_and_f4_visuals.md`: v0.6.3 新增世界模型记忆论文、精讲文档与非表格式 Figure 4 方案说明。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
@@ -26,9 +27,11 @@
 - `latex/STRUCTURE_PROPOSAL_v0.5.md`: 讨论阶段的主题与文章结构提案。
 - `latex/figures/FIGURE_PLAN_AND_PROMPTS_v0.5.5.md`: 需要原创绘制/重绘/引用的图片清单，以及每张图的绘制 prompt。
 - `latex/figures/FIGURE4_COMPLETE_PROMPT_v0.5.8.md`: 完整版 Figure 4 绘制 prompt，覆盖更多相关方法和技术路线。
+- `latex/figures/FIGURE4_NON_TABLE_VISUAL_PROMPTS_v0.6.3.md`: 非表格式 Figure 4 视觉方案，包括生命周期地铁图、Sankey、radial wheel、layered stack 等 prompt。
 - `papers/README.md`: PDF 下载和重命名说明。
 - `scripts/download_papers.py`: arXiv PDF 批量下载脚本。
 - `notes/paper_notes/INDEX.md`: 重点论文结构化阅读笔记索引。
+- `notes/paper_notes/NEW_WORLD_MODEL_MEMORY_NOTES_v0.6.3.md`: 新增世界模型记忆论文精讲笔记，包括 HyDRA、GIM-World、WorldKV、HiMem-WAM 及相邻背景论文。
 - `notes/paper_notes/WEB_READ_INDEX_v0.5_SUPPLEMENT.md`: v0.5 新增候选论文笔记索引。
 - `notes/paper_notes/WEB_READ_NOTES_SUPPLEMENT_v0.5.md`: v0.5 新增候选论文结构化精读补充笔记。
 - `notes/paper_notes/READING_NOTES_BUNDLE.md`: 结构化阅读笔记合集，本地 ZIP 已包含完整版本。
