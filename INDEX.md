@@ -25,6 +25,8 @@
 - `22_v067_dual_track_manuscript_plan.md`: v0.6.7 双轨论文计划，将项目拆成 AAAI 7-page conference version 与 journal/full-length version。
 - `23_v067_venue_strategy.md`: v0.6.7 投稿 venue 策略，比较 AAAI conference version 与 journal/full-length version 的推荐投稿目标。
 - `24_journal_submission_solution_v0.6.8.md`: v0.6.8 期刊长文投稿解决方案，回答如何避免会议页数不足与期刊文献罗列问题。
+- `25_conference_benchmark_track_and_journal_plan_v0.6.9.md`: v0.6.9 会议 benchmark 备选路线与期刊综述关系规划，目前 benchmark 线暂停。
+- `26_journal_first_writing_pass_v0.7.0.md`: v0.7.0 期刊优先写作推进，明确推迟自建 benchmark，并优先深写 Section 9 世界状态记忆。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
