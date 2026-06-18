@@ -34,6 +34,10 @@
 - `31_v076_formulas_pseudocode_and_section_expansion.md`: v0.7.6 在 Section 5/7/8 中补充公式与伪代码，强化 cache 维护、retrieval recall 和 entity-state update 的分析接口。
 - `32_v077_identity_world_state_deepening.md`: v0.7.7 深写 Section 7/9，补充 entity-state 与 world-state 伪代码、公式，并压缩对应 route tables。
 - `33_v079_evaluation_and_synthesis_expansion.md`: v0.7.9 扩写 Introduction、Section 10 Evaluation 与 Section 11 Synthesis，补充 memory facts、memory decay、评测协议表和跨路线设计模式表。
+- `34_v080_citation_integration_and_bibliography_expansion.md`: v0.8.0 为 TMM 期刊稿加入正文引用，扩展 BibTeX 至约 40 条，并完成无 undefined citations 的编译检查。
+- `35_v081_technical_route_detail_expansion.md`: v0.8.1 扩展各技术路线中的代表方法描述，包括 cache、entity、retrieval、world-state 方法族。
+- `36_v082_reviewer_driven_expansion.md`: v0.8.2 按审稿意见强化 operational definition、survey methodology、failure taxonomy、benchmark audit 与 paper-level audit sample。
+- `37_v083_method_profiles_and_figure_prompts.md`: v0.8.3 增加代表方法 profile 章节，并整理 failure/retrieval/world-state 三张后续图的绘制 prompt。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
