@@ -31,6 +31,7 @@
 - `28_tmm_template_and_route_figures_v0.7.2.md`: v0.7.2 TMM/IEEE Transactions 模板路线、技术路线是否单独绘图、Retrieval/World-State 统一方法图规划。
 - `29_v074_table_structure_and_content_repair.md`: v0.7.4 表格、结构与内容修正计划，解释 TMM 预览变短、表格异常、world-model motivation 与 Section 5/8 重复问题。
 - `30_v075_cache_retrieval_boundary_and_writing_update.md`: v0.7.5 重写 Section 5/8 边界，将 Section 5 聚焦 cache 设置与通用 cache 使用，将 Section 8 聚焦检索策略。
+- `31_v076_formulas_pseudocode_and_section_expansion.md`: v0.7.6 在 Section 5/7/8 中补充公式与伪代码，强化 cache 维护、retrieval recall 和 entity-state update 的分析接口。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
