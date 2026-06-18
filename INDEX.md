@@ -23,6 +23,7 @@
 - `20_v065_figures_and_supplementary_coverage.md`: v0.6.5 插入用户绘制的 F1--F10，生成 supplementary coverage table，并记录图文压缩与后续表格核查任务。
 - `21_v066_aaai_budget_figures_and_route_deepening.md`: v0.6.6 AAAI 页数预算、图像使用策略、是否引用原论文图、以及各技术路线深度强化计划。
 - `22_v067_dual_track_manuscript_plan.md`: v0.6.7 双轨论文计划，将项目拆成 AAAI 7-page conference version 与 journal/full-length version。
+- `23_v067_venue_strategy.md`: v0.6.7 投稿 venue 策略，比较 AAAI conference version 与 journal/full-length version 的推荐投稿目标。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
