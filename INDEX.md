@@ -40,6 +40,8 @@
 - `37_v083_method_profiles_and_figure_prompts.md`: v0.8.3 增加代表方法 profile 章节，并整理 failure/retrieval/world-state 三张后续图的绘制 prompt。
 - `38_v084_insert_new_figures_and_expand_audit.md`: v0.8.4 插入 failure/retrieval/world-state 三张新图，并扩展 route-specific paper-level audit tables。
 - `39_v085_systematic_protocol_and_benchmark_audit.md`: v0.8.5 增加系统化 survey protocol、细化 benchmark audit、加入 publication-status coding 与 world-state boundary tags。
+- `40_v086_screening_stats_scope_and_formalism_binding.md`: v0.8.6 增加 screening statistics、full-corpus audit CSV、formalism-to-method binding、scope exclusion 与 conclusion cleanup。
+- `41_v087_final_polish_judge_reliability_identity_state.md`: v0.8.7 增加 judge reliability 表、identity-state disentanglement 表，并进一步说明 full-corpus audit 与主文表格关系。
 - `tables/candidate_papers_v0.5.csv`: v0.5 新增/升级候选论文、技术报告和 benchmark 表。
 - `tables/metadata_only_resolution_v0.5.csv`: v0.4 中 metadata-only 条目的处理方案。
 - `tables/paper_primary_location_v0.5.1.csv`: 主线/支撑/背景/边界论文的 primary discussion location 分类表。
