@@ -1,0 +1,54 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{balance}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlist{leftmargin=*,nosep}
+\newcommand{\method}[1]{\textsc{#1}}
+
+\title{Memory Systems in Video Generation Models:\ From Token Retention to Entity and World-State Persistence}
+\author{Anonymous Authors}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Video generation models are moving from isolated short clips toward long-form synthesis, multi-shot storytelling, identity-preserving generation, retrieval-augmented generation, interactive generation, and generative world simulation. Across these settings, the central failure mode is no longer only imperfect visual realism or short-term temporal flicker, but the inability to register, maintain, access, apply, revise, and validate information across time. This article develops a memory-system view of video generation and organizes the literature by memory objects, substrates, lifecycle operations, training regimes, technical routes, and diagnostic evaluation dimensions. To make the taxonomy inspectable rather than purely conceptual, we combine an operational memory boundary, a reproducible coding protocol, paper-level audit records, publication-status labels, and benchmark-level evaluation analysis. The resulting synthesis connects cache/KV policies, coordinate and spectral mechanisms, identity/entity memory, retrieval-augmented recall, and spatial/world-state persistence under a common evidence-backed framework.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Video generation, memory systems, long video generation, video world models, retrieval-augmented generation, identity consistency, world-state memory, survey.
+\end{IEEEkeywords}
+
+\input{sections/01_introduction}
+\input{sections/02_scope_related_surveys}
+\input{sections/03_memory_failures}
+\input{sections/04_taxonomy}
+\input{sections/05_token_kv_attention_memory}
+\input{sections/06_positional_spectral_memory}
+\input{sections/07_identity_entity_narrative_memory}
+\input{sections/08_retrieval_augmented_recall}
+\input{sections/09_world_state_memory}
+\input{sections/10_evaluation}
+\input{sections/11_synthesis_open_problems}
+\input{sections/12_method_profiles}
+\input{sections/12_audit_tables}
+\input{sections/12_conclusion}
+
+\balance
+\bibliographystyle{IEEEtran}
+\bibliography{bib/references}
+\end{document}
