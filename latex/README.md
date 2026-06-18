@@ -1,50 +1,42 @@
 # LaTeX Draft Directory
 
-This directory contains an AAAI-style LaTeX draft skeleton for the survey:
+This directory contains the working LaTeX draft for the survey:
 
-**Memory Systems in Video Generation and Video World Models: From KV Cache to Entity and World-State Memory**
+**Memory Systems in Video Generation Models: From Token Retention to Entity and World-State Persistence**
 
-## Important AAAI template note
+## Current chat-generated revision
 
-`main.tex` is written against the AAAI author-kit convention:
+A v0.8.8 reviewer-response package was generated from the uploaded v0.8.7 zip. The downloadable package returned in chat contains the full IEEE/TMM source tree, figures, supplementary CSV, revision notes, and compiled PDF.
 
-```tex
-\documentclass[letterpaper]{article}
-\usepackage[submission]{aaai26}
-```
+Key v0.8.8 changes:
 
-The official AAAI style files are **not bundled here** because they should be obtained from the official AAAI author kit for the target year. Place the official files in this directory before compiling, typically:
-
-```text
-latex/aaai26.sty
-latex/aaai.bst or latex/aaai26.bst
-```
-
-If the target venue changes, replace `aaai26` with the style file from the corresponding AAAI author kit.
+- tighter abstract;
+- clearer main-evidence vs supplementary/boundary-evidence treatment;
+- expanded supplementary CSV schema;
+- revised screening-statistics wording;
+- persistent-vs-mutable identity-state table;
+- judge-failure reliability table;
+- explicit world-state scope tags;
+- terminology cleanup toward coordinate/spectral memory;
+- bibliography cleanup removing placeholder `Authors` citation authors.
 
 ## Compile
 
-```bash
-cd latex
-latexmk -pdf main.tex
-```
-
-or:
+For the full package returned in chat:
 
 ```bash
+cd TMM_Journal_Track_v0.8.8
 pdflatex main
 bibtex main
 pdflatex main
 pdflatex main
 ```
 
-## Directory
+In this environment, `bibtex` was available as `/usr/bin/bibtex.original`, so the compiled PDF was generated with:
 
-```text
-latex/
-├── main.tex
-├── references.bib
-├── sections/
-├── tables/
-└── figures/
+```bash
+pdflatex main
+/usr/bin/bibtex.original main
+pdflatex main
+pdflatex main
 ```
